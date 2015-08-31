@@ -12,8 +12,6 @@ import Foundation
 typealias EvalResult = (code: Int32, results: [String])
 
 
-
-
 class LuaState
 {
     let L: COpaquePointer

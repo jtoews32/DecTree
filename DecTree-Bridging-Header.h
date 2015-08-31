@@ -14,5 +14,6 @@
 #include "lualib.h"
 
 
+#import <CouchbaseLite/CouchbaseLite.h>
 
 

@@ -22,15 +22,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow(frame:UIScreen.mainScreen().bounds)
         
         
-        /* UI Nav Controller */
+        let manager = CBLManager.sharedInstance()
+       
+        /*
+        if manager? == nil {
+            NSLog("Cannot create Manager Instance")
+            exit(-1)
+        }
+        */
         
+        
+        
+        
+        
+        
+        
+        /* UI Nav Controller */
+        /*
         self.window!.backgroundColor = UIColor.redColor()
         
         self.window!.makeKeyAndVisible()
         
         let navController: ListNavController = ListNavController()
         self.window!.rootViewController = navController
-
+        */
      
         
         
@@ -43,6 +58,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window!.makeKeyAndVisible()
         */
         
+        
+        // Scroller
+        self.window!.backgroundColor = UIColor.redColor()
+        self.window!.makeKeyAndVisible()
+        
+        let controller: HeaderContentController = HeaderContentController()
+        self.window!.rootViewController = controller
         
         
         

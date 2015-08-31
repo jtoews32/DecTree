@@ -135,11 +135,6 @@ class ListController: UIViewController, UITableViewDelegate, UITableViewDataSour
         var bts: [AnyObject]? = [backBtn]
         
         
-
-        
-        
-        
-        
         toolBar.setItems(bts, animated: true)
 
         
