@@ -9,8 +9,7 @@
 
 import Foundation
 
-// typealias EvalResult = (code: Int32, results: [String])
-
+typealias EvalResult = (code: Int32, results: [String])
 
 class LuaManager {
     
@@ -97,6 +96,7 @@ class LuaManager {
     
         
     // Isn't necessary .. Probably does exactly what the script before it does
+    
     func runCodeFromStringWithResult(script: String) -> EvalResult
     {
         let L: COpaquePointer = self.state
@@ -181,7 +181,7 @@ class LuaManager {
         return (LUA_OK, results)
     }
 
-
+/*
     func evaluate(script: String) -> EvalResult
     {
         var results: [String] = []
@@ -236,6 +236,8 @@ class LuaManager {
         
         return (LUA_OK, results)
     }
+    */
+    
     
     /*
     
