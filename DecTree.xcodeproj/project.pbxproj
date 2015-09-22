@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		140542491B8D86DF00CA457E /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140542481B8D86DF00CA457E /* Note.swift */; };
 		1405424B1B8D874C00CA457E /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1405424A1B8D874C00CA457E /* Star.swift */; };
+		140E610D1BB0C67300BBE235 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 140E610C1BB0C67300BBE235 /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
+		140E610F1BB0D4E100BBE235 /* IntroScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E610E1BB0D4E100BBE235 /* IntroScreenController.swift */; settings = {ASSET_TAGS = (); }; };
+		140E61111BB0DD3500BBE235 /* DecisionScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E61101BB0DD3500BBE235 /* DecisionScrollController.swift */; settings = {ASSET_TAGS = (); }; };
+		140E61131BB0E80D00BBE235 /* DecisionStartTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E61121BB0E80D00BBE235 /* DecisionStartTableController.swift */; settings = {ASSET_TAGS = (); }; };
+		140E61161BB12EA000BBE235 /* lua_functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 140E61141BB12EA000BBE235 /* lua_functions.c */; settings = {ASSET_TAGS = (); }; };
 		141843451B76AFDA008B71CD /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141843441B76AFDA008B71CD /* DrawingView.swift */; };
 		141843471B76B336008B71CD /* uiboard.lua in Resources */ = {isa = PBXBuildFile; fileRef = 141843461B76B336008B71CD /* uiboard.lua */; };
 		1418434B1B76CDAE008B71CD /* DropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1418434A1B76CDAE008B71CD /* DropViewController.swift */; };
@@ -16,19 +21,15 @@
 		145DE7731B6D4A2100DA8502 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145DE7721B6D4A2100DA8502 /* ListController.swift */; };
 		145DE7751B6D7C8600DA8502 /* ListNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145DE7741B6D7C8600DA8502 /* ListNavController.swift */; };
 		145DE7771B6D981F00DA8502 /* bg_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145DE7761B6D981F00DA8502 /* bg_1.jpg */; };
-		14759BA81B7DAA880046E5A7 /* HeaderContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14759BA71B7DAA880046E5A7 /* HeaderContentController.swift */; };
 		14759BAC1B7DB33B0046E5A7 /* 500x500_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 14759BA91B7DB33B0046E5A7 /* 500x500_1.png */; };
 		14759BAD1B7DB33B0046E5A7 /* 500x500_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 14759BAA1B7DB33B0046E5A7 /* 500x500_2.png */; };
 		14759BAE1B7DB33B0046E5A7 /* 500x500_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 14759BAB1B7DB33B0046E5A7 /* 500x500_3.png */; };
 		14ED77E11B642B5D0031C98B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ED77E01B642B5D0031C98B /* AppDelegate.swift */; };
 		14ED77E31B642B5D0031C98B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ED77E21B642B5D0031C98B /* ViewController.swift */; };
 		14ED77E81B642B5D0031C98B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14ED77E71B642B5D0031C98B /* Images.xcassets */; };
-		14ED77EB1B642B5D0031C98B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14ED77E91B642B5D0031C98B /* LaunchScreen.xib */; };
 		14ED77F71B642B5D0031C98B /* DecTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ED77F61B642B5D0031C98B /* DecTreeTests.swift */; };
 		14ED78031B6433BD0031C98B /* LuaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ED78021B6433BD0031C98B /* LuaManager.swift */; };
 		14ED78051B643A390031C98B /* libPods-lua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14ED78041B643A390031C98B /* libPods-lua.a */; };
-		14ED78081B6445D10031C98B /* LuaState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ED78071B6445D10031C98B /* LuaState.swift */; };
-		14ED780A1B6447140031C98B /* LuaScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ED78091B6447140031C98B /* LuaScript.swift */; };
 		F9A3C0E5F5ABA347859785CC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DACE4980E3AB82EA0BF1180A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,12 @@
 /* Begin PBXFileReference section */
 		140542481B8D86DF00CA457E /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		1405424A1B8D874C00CA457E /* Star.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		140E610C1BB0C67300BBE235 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		140E610E1BB0D4E100BBE235 /* IntroScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroScreenController.swift; sourceTree = "<group>"; };
+		140E61101BB0DD3500BBE235 /* DecisionScrollController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecisionScrollController.swift; sourceTree = "<group>"; };
+		140E61121BB0E80D00BBE235 /* DecisionStartTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecisionStartTableController.swift; sourceTree = "<group>"; };
+		140E61141BB12EA000BBE235 /* lua_functions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lua_functions.c; sourceTree = "<group>"; };
+		140E61151BB12EA000BBE235 /* lua_functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua_functions.h; sourceTree = "<group>"; };
 		141843441B76AFDA008B71CD /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		141843461B76B336008B71CD /* uiboard.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uiboard.lua; sourceTree = "<group>"; };
 		1418434A1B76CDAE008B71CD /* DropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +59,6 @@
 		145DE7721B6D4A2100DA8502 /* ListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
 		145DE7741B6D7C8600DA8502 /* ListNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNavController.swift; sourceTree = "<group>"; };
 		145DE7761B6D981F00DA8502 /* bg_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_1.jpg; sourceTree = "<group>"; };
-		14759BA71B7DAA880046E5A7 /* HeaderContentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderContentController.swift; sourceTree = "<group>"; };
 		14759BA91B7DB33B0046E5A7 /* 500x500_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 500x500_1.png; sourceTree = "<group>"; };
 		14759BAA1B7DB33B0046E5A7 /* 500x500_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 500x500_2.png; sourceTree = "<group>"; };
 		14759BAB1B7DB33B0046E5A7 /* 500x500_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 500x500_3.png; sourceTree = "<group>"; };
@@ -61,15 +67,12 @@
 		14ED77E01B642B5D0031C98B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14ED77E21B642B5D0031C98B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		14ED77E71B642B5D0031C98B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		14ED77EA1B642B5D0031C98B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		14ED77F01B642B5D0031C98B /* DecTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14ED77F51B642B5D0031C98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14ED77F61B642B5D0031C98B /* DecTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecTreeTests.swift; sourceTree = "<group>"; };
 		14ED78021B6433BD0031C98B /* LuaManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuaManager.swift; sourceTree = "<group>"; };
 		14ED78041B643A390031C98B /* libPods-lua.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-lua.a"; path = "Pods/../build/Debug-iphoneos/libPods-lua.a"; sourceTree = "<group>"; };
 		14ED78061B643F840031C98B /* DecTree-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DecTree-Bridging-Header.h"; sourceTree = "<group>"; };
-		14ED78071B6445D10031C98B /* LuaState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuaState.swift; sourceTree = "<group>"; };
-		14ED78091B6447140031C98B /* LuaScript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuaScript.swift; sourceTree = "<group>"; };
 		7689F34E6E3A3AB100D94ABA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D26093779CA35DB57D2B03F4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DACE4980E3AB82EA0BF1180A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,8 +110,8 @@
 		14ED77D21B642B5C0031C98B = {
 			isa = PBXGroup;
 			children = (
+				140E610C1BB0C67300BBE235 /* Default-568h@2x.png */,
 				14ED78061B643F840031C98B /* DecTree-Bridging-Header.h */,
-				14ED77E91B642B5D0031C98B /* LaunchScreen.xib */,
 				14ED77DD1B642B5C0031C98B /* DecTree */,
 				14ED77F31B642B5D0031C98B /* DecTreeTests */,
 				14ED77DC1B642B5C0031C98B /* Products */,
@@ -139,15 +142,17 @@
 				14759BAB1B7DB33B0046E5A7 /* 500x500_3.png */,
 				14ED77DE1B642B5D0031C98B /* Supporting Files */,
 				14ED78021B6433BD0031C98B /* LuaManager.swift */,
-				14ED78071B6445D10031C98B /* LuaState.swift */,
-				14ED78091B6447140031C98B /* LuaScript.swift */,
 				145DE7701B6D488400DA8502 /* MainController.swift */,
 				145DE7721B6D4A2100DA8502 /* ListController.swift */,
 				145DE7741B6D7C8600DA8502 /* ListNavController.swift */,
 				141843441B76AFDA008B71CD /* DrawingView.swift */,
 				141843461B76B336008B71CD /* uiboard.lua */,
 				1418434A1B76CDAE008B71CD /* DropViewController.swift */,
-				14759BA71B7DAA880046E5A7 /* HeaderContentController.swift */,
+				140E610E1BB0D4E100BBE235 /* IntroScreenController.swift */,
+				140E61101BB0DD3500BBE235 /* DecisionScrollController.swift */,
+				140E61121BB0E80D00BBE235 /* DecisionStartTableController.swift */,
+				140E61141BB12EA000BBE235 /* lua_functions.c */,
+				140E61151BB12EA000BBE235 /* lua_functions.h */,
 			);
 			path = DecTree;
 			sourceTree = "<group>";
@@ -241,7 +246,8 @@
 		14ED77D31B642B5C0031C98B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Jon Toews";
 				TargetAttributes = {
 					14ED77DA1B642B5C0031C98B = {
@@ -277,12 +283,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14ED77EB1B642B5D0031C98B /* LaunchScreen.xib in Resources */,
 				14759BAC1B7DB33B0046E5A7 /* 500x500_1.png in Resources */,
 				141843471B76B336008B71CD /* uiboard.lua in Resources */,
 				145DE7771B6D981F00DA8502 /* bg_1.jpg in Resources */,
 				14759BAE1B7DB33B0046E5A7 /* 500x500_3.png in Resources */,
 				14ED77E81B642B5D0031C98B /* Images.xcassets in Resources */,
+				140E610D1BB0C67300BBE235 /* Default-568h@2x.png in Resources */,
 				14759BAD1B7DB33B0046E5A7 /* 500x500_2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,15 +340,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14ED78081B6445D10031C98B /* LuaState.swift in Sources */,
 				14ED78031B6433BD0031C98B /* LuaManager.swift in Sources */,
 				14ED77E31B642B5D0031C98B /* ViewController.swift in Sources */,
-				14759BA81B7DAA880046E5A7 /* HeaderContentController.swift in Sources */,
+				140E61131BB0E80D00BBE235 /* DecisionStartTableController.swift in Sources */,
 				14ED77E11B642B5D0031C98B /* AppDelegate.swift in Sources */,
 				1405424B1B8D874C00CA457E /* Star.swift in Sources */,
 				145DE7711B6D488400DA8502 /* MainController.swift in Sources */,
 				1418434B1B76CDAE008B71CD /* DropViewController.swift in Sources */,
-				14ED780A1B6447140031C98B /* LuaScript.swift in Sources */,
+				140E610F1BB0D4E100BBE235 /* IntroScreenController.swift in Sources */,
+				140E61111BB0DD3500BBE235 /* DecisionScrollController.swift in Sources */,
+				140E61161BB12EA000BBE235 /* lua_functions.c in Sources */,
 				141843451B76AFDA008B71CD /* DrawingView.swift in Sources */,
 				145DE7731B6D4A2100DA8502 /* ListController.swift in Sources */,
 				145DE7751B6D7C8600DA8502 /* ListNavController.swift in Sources */,
@@ -368,18 +375,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		14ED77E91B642B5D0031C98B /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				14ED77EA1B642B5D0031C98B /* Base */,
-			);
-			name = LaunchScreen.xib;
-			path = DecTree;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		14ED77F81B642B5D0031C98B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -402,6 +397,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -475,6 +471,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "objct.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "./DecTree-Bridging-Header.h";
 			};
@@ -491,6 +488,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "objct.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "./DecTree-Bridging-Header.h";
 			};
@@ -510,6 +508,7 @@
 				);
 				INFOPLIST_FILE = DecTreeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "objct.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DecTree.app/DecTree";
 			};
@@ -525,6 +524,7 @@
 				);
 				INFOPLIST_FILE = DecTreeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "objct.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DecTree.app/DecTree";
 			};

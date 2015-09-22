@@ -90,7 +90,7 @@ class CustomTableCell: UITableViewCell {
     }
 
     required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
+        super.init(coder: aDecoder)!
     }
     
     
@@ -111,7 +111,7 @@ class ListController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.toolBar = UIToolbar(frame:CGRectMake(0, UIScreen.mainScreen().bounds.size.height-100, UIScreen.mainScreen().bounds.size.width, 100))
+       // self.toolBar = UIToolbar(frame:CGRectMake(0, UIScreen.mainScreen().bounds.size.height-100, UIScreen.mainScreen().bounds.size.width, 100))
        // self.toolBar.backgroundColor = UIColor.whiteColor()
         
         self.tableView = UITableView(frame: self.view.bounds)
@@ -125,19 +125,19 @@ class ListController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
         
         
-        
+        /*
         var backBtn: UIBarButtonItem =
             UIBarButtonItem(barButtonSystemItem: .Search, target: self, action: nil)
         
-        
-        
+        */
+        /*
         
         var bts: [AnyObject]? = [backBtn]
-        
+
         
         toolBar.setItems(bts, animated: true)
 
-        
+        */
         
         toolBar.barStyle = UIBarStyle.Black
         self.view.addSubview(toolBar)
@@ -186,14 +186,15 @@ class ListController: UIViewController, UITableViewDelegate, UITableViewDataSour
         */
         
         
-        
-        var cell:UITableViewCell = self.tableView!.dequeueReusableCellWithIdentifier("cell") as! UITableViewCell
-        
+      //  let cell:UITableViewCell = self.
+      //  let cell:UITableViewCell = self.tableView!.dequeueReusableCellWithIdentifier("cell") as! UITableViewCell
+          /*
         cell.textLabel?.text = self.items[indexPath.row]
         
-
+*/
         
-        return cell
+    //    return cell
+        return self.tableView!.dequeueReusableCellWithIdentifier("cell")! // as! UITableViewCell
     }
     
     

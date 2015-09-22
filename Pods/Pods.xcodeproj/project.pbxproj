@@ -7,496 +7,856 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		014857606919B0335A53B733 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 6022B4754C54667E248513BB /* FMDB.h */; };
-		02227A1E0C4D4A395DF0A1EF /* lobject.h in Headers */ = {isa = PBXBuildFile; fileRef = 30BC3EA22692AD732004F52C /* lobject.h */; };
-		0741699856C6059D3E135DE8 /* lcode.c in Sources */ = {isa = PBXBuildFile; fileRef = 6EB39661C128A9D00D9B101B /* lcode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		0ACE41C26A192E1A9300639F /* lfunc.h in Headers */ = {isa = PBXBuildFile; fileRef = 869E1E85712681931E2C0F16 /* lfunc.h */; };
-		0D48CE4B2514A79B5F9AC689 /* lmem.h in Headers */ = {isa = PBXBuildFile; fileRef = 22060114F0F2DCFC64ED86A9 /* lmem.h */; };
-		1C95309B25B9045EDCBE587B /* lua.h in Headers */ = {isa = PBXBuildFile; fileRef = D288CC7D88A13A02ECBCF1F6 /* lua.h */; };
-		23C869642BF8AB21E6D776C3 /* ldo.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E569911737C7475C66801 /* ldo.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		25360A1DC7327DFA9E6FC039 /* lcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 302559166A69D3FAA055D3E3 /* lcode.h */; };
-		2B6B3EA83C0337C3CA500C59 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86ED7D3278E359CB92D5F432 /* FMDatabaseAdditions.h */; };
-		2ECC5E050F23F0C862E56FEC /* luaconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 49140F2951C58580D4974A04 /* luaconf.h */; };
-		32C907B71B86770C5C81BADD /* lparser.h in Headers */ = {isa = PBXBuildFile; fileRef = B31253B5F0F9D9B26F743E28 /* lparser.h */; };
-		33E1A561893FFB4E672160F0 /* lopcodes.h in Headers */ = {isa = PBXBuildFile; fileRef = FCC565FA3C3936BDC8640A30 /* lopcodes.h */; };
-		38FFA1E23686161BEAB34466 /* lzio.c in Sources */ = {isa = PBXBuildFile; fileRef = A899BE115AE23A51B3AE5B41 /* lzio.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		44B4BF538168E16D1652EBF3 /* loadlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 54388EFC823B8750F8506F4B /* loadlib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46875CA342DCD001F6184950 /* lobject.c in Sources */ = {isa = PBXBuildFile; fileRef = 42B031E22BDD8D4E7AB8E16E /* lobject.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		51669AFD519EC30CBE6F5DAF /* lstring.h in Headers */ = {isa = PBXBuildFile; fileRef = DC9ACC00ADD209820E89FB3A /* lstring.h */; };
-		544CB9E4494A2B4A850C8EDF /* lualib.h in Headers */ = {isa = PBXBuildFile; fileRef = 757CC67105CFAF171C5C17E9 /* lualib.h */; };
-		5B6BB3CA4567C0CFA0878FE5 /* lfunc.c in Sources */ = {isa = PBXBuildFile; fileRef = BC55ACD9C6C399C68357FD44 /* lfunc.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		64D0D835CA43C1A4919D017F /* ltm.c in Sources */ = {isa = PBXBuildFile; fileRef = 41BD80247CC78DFF1B9F2A07 /* ltm.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		6808612565E459EC565B1483 /* lstate.c in Sources */ = {isa = PBXBuildFile; fileRef = 90DA0605181DC54FB16A0438 /* lstate.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		68B06959EBFA57DB793AAD49 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2878FDCC4E78B0F5FD5BAF78 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		699097A6C654DA78E3DE9035 /* ldblib.c in Sources */ = {isa = PBXBuildFile; fileRef = 86FAA419CEEF190163B91E68 /* ldblib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		6AF2D5CBB40D2BF5DF7C486C /* lzio.h in Headers */ = {isa = PBXBuildFile; fileRef = E847F3058C7EEF7246741390 /* lzio.h */; };
-		6CA9A13331913728260164DF /* llex.h in Headers */ = {isa = PBXBuildFile; fileRef = 13807463EE599F03D95AAA29 /* llex.h */; };
-		706BAEBFAD7FDB1122059F35 /* lapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC548C66CF90E4A573B68A6 /* lapi.h */; };
-		76E19A4D5AD16A2E5E321B9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AA59A8405BD979CE181EBA /* Foundation.framework */; };
-		7AADB731860E7B5293A0990D /* lstrlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 66652E4AA0D95010BDA19A23 /* lstrlib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		82642F84CAE163B0C556857C /* lctype.h in Headers */ = {isa = PBXBuildFile; fileRef = CC586B57D0544A5D4C846E38 /* lctype.h */; };
-		82AB501DAF77EDF998525CD2 /* ltable.h in Headers */ = {isa = PBXBuildFile; fileRef = 25C6CBD352887ECBCE2B4754 /* ltable.h */; };
-		841D034F677BA5188D1148C2 /* ltable.c in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8786D0C5770A7194EE04F /* ltable.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8A7D9EAE51EA05A31B04A81C /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE019F1E4C42E5F150EF757 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8B61E53EDAB9F239A9E41B78 /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B7BBDE002D2AC25DF58E5D9 /* loslib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9220914807A18410380BAE22 /* lctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B6589561F52C45C2FF55306 /* lctype.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9229C860E1503DE4816B6907 /* lauxlib.c in Sources */ = {isa = PBXBuildFile; fileRef = D763F9FE0FED7E8C5030680B /* lauxlib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		962F79F35A845EB46F19B4D9 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B92B35E6B06CB6DCF8CF716 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		96A0CB3D00273FF5BF0523F0 /* lvm.c in Sources */ = {isa = PBXBuildFile; fileRef = 59C9BAE01889A59F1CBE4C79 /* lvm.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		988CE99B97D43CD974D4A07B /* lstate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD3E014714A097C84A79891 /* lstate.h */; };
-		9A48BE9D63221184C83DFC5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AA59A8405BD979CE181EBA /* Foundation.framework */; };
-		9AA3874A215A958307E94611 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E6570EE37915794F5EDC6E5 /* FMResultSet.h */; };
-		9C232F8368CC022BAB252911 /* ltablib.c in Sources */ = {isa = PBXBuildFile; fileRef = BBF8453380C509CA0FA47070 /* ltablib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9D8F11BE59CCA75423C0EDF1 /* lparser.c in Sources */ = {isa = PBXBuildFile; fileRef = D0520327200F7C0738A9850F /* lparser.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9F29FC1B93B7C5CEBB2BEDDC /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C76C53204BDD6651EED0B8 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A31EB5EDA0308122C0F629EB /* Pods-FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB0800A4EBA3ACE40F76E99 /* Pods-FMDB-dummy.m */; };
-		A69988C204CCD5B37D403624 /* lbitlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 91ACE511ABEA5FE0BCB2312E /* lbitlib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A9411FC6290B8D734B88D70D /* lundump.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2467F30FF543896DA26CC0 /* lundump.h */; };
-		AB6DBC18AA4CFC04023B2BF6 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E636E29BD6899228F665EAD /* FMDatabase.h */; };
-		AC963CF7AACF3892ABC17E7A /* lstring.c in Sources */ = {isa = PBXBuildFile; fileRef = F765C188858DFDB8DEB1754F /* lstring.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		ACA5E4224100F3CB461FA678 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D0D3AB684246F1AE49EB50 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		AE6FBC5ED4A00F2B0462D5BE /* lapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 6313F38304D907A1E568709D /* lapi.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B0F10498BE6A7936A4452089 /* lopcodes.c in Sources */ = {isa = PBXBuildFile; fileRef = DABE5724C5C12D53BA71FB29 /* lopcodes.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B110EC6EFA466A88CD9DEEB4 /* liolib.c in Sources */ = {isa = PBXBuildFile; fileRef = 65B409AD65EA6E4CC6EA9369 /* liolib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B441CA5333654F96DFFBCFF1 /* llex.c in Sources */ = {isa = PBXBuildFile; fileRef = 51383174234174D0B5BBE2C8 /* llex.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B5ED4E4DD2FA024A7C0E86A0 /* ldebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D4442D8DA45D3A966E7223D /* ldebug.h */; };
-		B7FB7A87453B66BCBC931466 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D182059565E5AB87A1F816 /* FMDatabaseQueue.h */; };
-		BF121832E7FE65E5A98ADEE2 /* lmem.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B92C5CC85E74686FA1114 /* lmem.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C2522D5CF087E4AFAC662C7E /* ltm.h in Headers */ = {isa = PBXBuildFile; fileRef = 958F75A044DEE8403FCB520B /* ltm.h */; };
-		C362C609BA3ED35B6B21E9A3 /* lgc.c in Sources */ = {isa = PBXBuildFile; fileRef = 97C186DD8D4A50F94CD330C4 /* lgc.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C53CAB2560D21E665ECBF50F /* lbaselib.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D128A3AFC65B27546D90CAC /* lbaselib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		CD21C5CF973E1D206C9A3B3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AA59A8405BD979CE181EBA /* Foundation.framework */; };
-		D1086D8D91F7368ABEA176EB /* Pods-lua-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCF108117C3D29ED60D6062 /* Pods-lua-dummy.m */; };
-		D44ACCA6C5800CF43E887CDD /* lgc.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAD2EA48C9626FF14CC1939 /* lgc.h */; };
-		D65A5F516F34957FDB42AD24 /* lcorolib.c in Sources */ = {isa = PBXBuildFile; fileRef = 7EB4AE4D029E8E42FC951DDC /* lcorolib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D6798B597EA6DF2C0E4540B5 /* lua.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 090E22A0C7A49449A3255992 /* lua.hpp */; };
-		DDD17B17DEF726A47C0DF4FC /* lundump.c in Sources */ = {isa = PBXBuildFile; fileRef = EF150D890DEE62A032FF0632 /* lundump.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		DEFE8DE201122084F969EA62 /* linit.c in Sources */ = {isa = PBXBuildFile; fileRef = 65F8C921777B72F3586F6141 /* linit.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E63E47B6EFC261343926E04A /* llimits.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF98B39A7C7AAB3C52EEDDB /* llimits.h */; };
-		E6C7210F00F50ACB9339E225 /* lauxlib.h in Headers */ = {isa = PBXBuildFile; fileRef = E61A6022041B83266859B4A3 /* lauxlib.h */; };
-		EAAD33D97D0A02A16CF60956 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D409C54BB2CA56716FC513 /* FMDatabasePool.h */; };
-		F23A823EB1A339485CB64449 /* ldo.h in Headers */ = {isa = PBXBuildFile; fileRef = F4E5138D2C42984561034181 /* ldo.h */; };
-		F2C0B06872255ABC68807F64 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 743A286B05D7808E241FA41F /* Pods-dummy.m */; };
-		F34DEA6AC13EA3891FC27801 /* lmathlib.c in Sources */ = {isa = PBXBuildFile; fileRef = A4B66BB060500D80E6AB81C8 /* lmathlib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F94EA2C07118587197266B04 /* lvm.h in Headers */ = {isa = PBXBuildFile; fileRef = 503C504E7DD90E02527B1E10 /* lvm.h */; };
-		FADA4070C8E4A855704529A4 /* ldump.c in Sources */ = {isa = PBXBuildFile; fileRef = 603A711CA06869627A9BFC23 /* ldump.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FD2F389DBADB3923FAED40E2 /* ldebug.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D17B8578BA2BA9BA37B68 /* ldebug.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		008C3A07ECC5AE024B974F0F /* ldo.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DC6ED7F720BF7C2F4ADA31 /* ldo.h */; };
+		00963FFF6C54393B23875AC9 /* ltable.c in Sources */ = {isa = PBXBuildFile; fileRef = F957CD7ADBE87A082BEEFE98 /* ltable.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0133208715FBFBFA97E3B516 /* lopcodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 359EFDA9ADB19C7F97E37F6A /* lopcodes.h */; };
+		0226CFF3F10A0EF5B49475F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7327DF0F3FDD9DA4FED75D55 /* Foundation.framework */; };
+		03A34EC8B10BC81344F23129 /* BSON_PrivateInterfaces.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FA234DB5791C5C13248830B /* BSON_PrivateInterfaces.h */; };
+		03B897B6CF46583484A6C792 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BB515D8A08F524F46842D33 /* FMDatabasePool.h */; };
+		05A1D04289399FFC45FDC05B /* gridfs.h in Headers */ = {isa = PBXBuildFile; fileRef = 393071BD3E003F365CF10E0E /* gridfs.h */; };
+		06DE98455E68348B1773FD4C /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BAB553640F6FB2D091D9713 /* FMResultSet.h */; };
+		079088B8097286D5BE0E5579 /* NSData+BSONAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F2931C00C6AC358D9A0B2EE /* NSData+BSONAdditions.h */; };
+		0A6FBD62CFECA3821D15989F /* MongoWriteConcern.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A9D58B0A47DAA28DE5066F /* MongoWriteConcern.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0CAC65A2F220478673A4BAD3 /* ltable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0781D0E1AF0E00892E2B591F /* ltable.h */; };
+		0CFCCD02CECDCE07162E05C0 /* lauxlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 436CB244650BB57102D14676 /* lauxlib.h */; };
+		0E7C1264F0D4D3247D94ADAD /* MongoConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DC078650248F669BDFC872 /* MongoConnection.h */; };
+		106F17EB89CAAFBFBDEC4AEA /* lgc.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A53BABB97A8CBCF52E36E3D /* lgc.h */; };
+		1422646A2360E3D774B87B50 /* NSDictionary+BSONAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 345C8C2253FD978337C51A29 /* NSDictionary+BSONAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		168CA146903E73E0B648171D /* lfunc.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E3E1A62900835355684CC44 /* lfunc.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		17F2BA425C50089FF9562FAC /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CDAE82721DE5DD7C84F1789 /* loslib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		19B6BBC2AAB37FD82A9798AC /* ldebug.c in Sources */ = {isa = PBXBuildFile; fileRef = 299C30D071597F06B3CF8565 /* ldebug.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		281470876E06B62DABE1ADAA /* lctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 943B2E73DE5B576DEB3DA260 /* lctype.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2AC8B50DAFDBC94440C8B207 /* BSONCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 59647F337523A0F8F79D0F97 /* BSONCoding.h */; };
+		2DEFB773CA7C016C314DAEA1 /* lstate.c in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3A148C622FB632F072D47 /* lstate.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3016C56EFC25B835CAA893DE /* BSONEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E9218CDADCB01FF1E53EC952 /* BSONEncoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3339042232A0717DFD966BBA /* BSONTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC58CFBB92965E734FC9593 /* BSONTypes.h */; };
+		36AA657836703BE0EB029177 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = F39890B8AD2E32C2A0E65423 /* md5.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		382380A0A5093B8C21FF264C /* Pods-mongo-c-driver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2E169053A7673E3C8A9A32 /* Pods-mongo-c-driver-dummy.m */; };
+		3C1E491B901BC29F6771A763 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7327DF0F3FDD9DA4FED75D55 /* Foundation.framework */; };
+		3E272E5178346B7BD7DC373B /* ObjCMongoDB.h in Headers */ = {isa = PBXBuildFile; fileRef = C80405D00B5161895D014DDF /* ObjCMongoDB.h */; };
+		3E6843D661FFBA8AFA189766 /* lobject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF16BBEAFDE4937BA5B3EEB /* lobject.h */; };
+		416AA11FAFE56049B6691B61 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0631E1FB2003D68D77F85733 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4253941CF773724AD7E029A8 /* env.c in Sources */ = {isa = PBXBuildFile; fileRef = BFF1ED46B0DE55C5FE76D800 /* env.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		43A13D99557BC8E279C9AA1A /* lopcodes.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F263836139AA063369DFD /* lopcodes.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		45AD76FA549DD3DB41EDD3F8 /* MongoCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = CF781EEA9350B7B577190F19 /* MongoCursor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		479E6E5F5E1782BA2399F945 /* bcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 007474AC345CAD3B6A83D00B /* bcon.h */; };
+		49669F6BF308EB5562108AB5 /* lzio.c in Sources */ = {isa = PBXBuildFile; fileRef = A2EB522B81B59A0059D80014 /* lzio.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4B40F991ED4EACBF042675A6 /* Pods-ObjCMongoDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E25EA7DF79A5423282E8206 /* Pods-ObjCMongoDB-dummy.m */; };
+		4CBE9F1C16B0B9DB2DA1B7B5 /* BSONIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EA6D3293BCF23CDE477AC2 /* BSONIterator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4ECE7523C54D62AFDCFDDD22 /* NSArray+MongoAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5B55D6D1F34B89AE5A9C44 /* NSArray+MongoAdditions.h */; };
+		50878FC3328F7EE0EF005DC3 /* MongoConnection+Diagnostics.h in Headers */ = {isa = PBXBuildFile; fileRef = EBABFAB365B4691A6BBFDF22 /* MongoConnection+Diagnostics.h */; };
+		55904329BE09D8EEF03CCA58 /* BSONEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = DD10AF69FE1A72B85AC6C8E9 /* BSONEncoder.h */; };
+		5841083A0153F7253A9BAE9F /* encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFD2345A475FE2C9C8E9459 /* encoding.h */; };
+		5D2470920C15EC6C9FADD266 /* lvm.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CF8223BC0651353ADC571E1 /* lvm.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5D93ED64648CB236A1B05BF0 /* BSONTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 538EC118319FE0E5A4447986 /* BSONTypes.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5EC670E7AC414867405006FB /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF83F6072E3D473A7D62B16 /* FMDatabaseAdditions.h */; };
+		5EE9454AFC8E44B60E9BCDCC /* mongo.c in Sources */ = {isa = PBXBuildFile; fileRef = F47064422AE07F2C8BEF28D1 /* mongo.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		609A31FD312C2A88545C4A56 /* liolib.c in Sources */ = {isa = PBXBuildFile; fileRef = 0393DBE52396392EBB6600B0 /* liolib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		63A75C2C67390B41E4A8FE64 /* mongo.h in Headers */ = {isa = PBXBuildFile; fileRef = FD868847152B18EBCA70470C /* mongo.h */; };
+		659166C920A07ABAE5EA0F94 /* ldblib.c in Sources */ = {isa = PBXBuildFile; fileRef = C005999B86D37ED5010FF08D /* ldblib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6687808D460C613C84621E50 /* gridfs.c in Sources */ = {isa = PBXBuildFile; fileRef = BAF6E62619AF6698B999EB7D /* gridfs.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66B8E0B4BB8592F2685C33ED /* ltablib.c in Sources */ = {isa = PBXBuildFile; fileRef = EC4675AAC3D5E95598EFE79D /* ltablib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		670B45108AA654FE3090788D /* lmem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB7851287B290E1495A49D5 /* lmem.h */; };
+		6885F7B034A25B0E682E4F87 /* lapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DBAD7EAB0957B5BB40D27 /* lapi.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		68AF2E458FFAFDD4DC35592E /* MongoUpdateRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 89ED7F4E663E5ADFB1DD6592 /* MongoUpdateRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		69E135C08FE6C29BCD0FB8AF /* env.h in Headers */ = {isa = PBXBuildFile; fileRef = EB623A458FB044C48BE02C73 /* env.h */; };
+		6CD6D57E85D32A64A82DF213 /* lualib.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA73A592D88157FD84164EB /* lualib.h */; };
+		6D54CB000DF9F701E5997975 /* Mongo_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 171BB226E78FC17A4778A801 /* Mongo_Helper.h */; };
+		6D7AD29803CA2F00054F60FB /* ltm.c in Sources */ = {isa = PBXBuildFile; fileRef = 4BE40610C133E9C25A2040CE /* ltm.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6D93F32476CE4993871DBB42 /* MongoCursor.h in Headers */ = {isa = PBXBuildFile; fileRef = 31924EBDC529E1A9A8B2A986 /* MongoCursor.h */; };
+		71874257867849ED3B4EEB08 /* lcode.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FA99E51BA4F2C32EF8446 /* lcode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		729C445E8C526B1A0953997F /* MongoPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = 17DAB0640B0DC6BA876B7FD4 /* MongoPredicate.h */; };
+		733879003C25544A48569C88 /* bson.c in Sources */ = {isa = PBXBuildFile; fileRef = B3686C4FD4461A4B26D3F648 /* bson.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		756F6339DA6499925A6B2C06 /* Pods-FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2252C84296566E8B8AD40B /* Pods-FMDB-dummy.m */; };
+		7B32353CAC86CC2F90016489 /* lapi.h in Headers */ = {isa = PBXBuildFile; fileRef = E356350CC0535CEE62485DE5 /* lapi.h */; };
+		7DD7824AD672C60A2E7A460A /* lundump.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F2BFC97F61903D6FA3F08D9 /* lundump.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		81A13A81F32CA73E973C6426 /* lstring.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E8596E019471DFDC3C8578F /* lstring.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		834125B579856D49F2B43D12 /* llex.c in Sources */ = {isa = PBXBuildFile; fileRef = A5535D71F662A2FEDD6CE80B /* llex.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		871FC8A373B9BED4C3F9F13F /* llimits.h in Headers */ = {isa = PBXBuildFile; fileRef = BB62FC270EECF2C8243D4619 /* llimits.h */; };
+		8904F1329722904FC73B8297 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCAF21CE007E4121C899314 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		89068DB873DF5EA0496A9C6C /* lparser.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F8D3315BA869DFA5CBF5A7 /* lparser.h */; };
+		8B8834E7FF6096DBEA484B1E /* lparser.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B98498E73608B03A2C5CD96 /* lparser.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8E7AC4DCF024140A189B2742 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 737317BE5390A9FB02AD8AA0 /* FMDatabaseQueue.h */; };
+		8F0D264983E9C9DECBF8D0C2 /* NSString+BSONAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 90552BC50BE7651AD774FBC3 /* NSString+BSONAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8F7E3D89AB1BDD829FF42CBE /* lauxlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A11A377631684C1EB9850C3 /* lauxlib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		90B14647BE38E0BB538740FC /* ldump.c in Sources */ = {isa = PBXBuildFile; fileRef = 335DD1DF0A1B17136ED3E218 /* ldump.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9437B98BF11501290B36BE57 /* lmem.c in Sources */ = {isa = PBXBuildFile; fileRef = BC7CCF555ABB111D0F499741 /* lmem.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		949E1B755F02DD0A1B6C6A72 /* NSDictionary+BSONAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC7B1617723C1423BF6960D /* NSDictionary+BSONAdditions.h */; };
+		99DACF5614F230F2018BCDFC /* Mongo_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FA85AE2356EAB3DECEB515 /* Mongo_Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9AEB2B2D20F4C3C3AAB50E0A /* lgc.c in Sources */ = {isa = PBXBuildFile; fileRef = CFD9E8F1A92D37A1F364400B /* lgc.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9B92DF5C99F5FD7ED0336068 /* luaconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 30724F83C200176B6C103AFA /* luaconf.h */; };
+		9FBB10E1C979AC3E6DE0F0AE /* lua.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 133072124018E32FA8CE3E01 /* lua.hpp */; };
+		A1D3EE60AC3142A18F004AC5 /* lundump.h in Headers */ = {isa = PBXBuildFile; fileRef = FBBDB040E9E3D0DB474BA6AB /* lundump.h */; };
+		A204DF6DAEC17981FF6B1EF8 /* NSArray+MongoAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E981BA74A963AC8AF490E01 /* NSArray+MongoAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A237DBA8BACB36190F05773C /* lcorolib.c in Sources */ = {isa = PBXBuildFile; fileRef = E5DEFBB2D8C378AF7145F542 /* lcorolib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A6A9D45AB57C4D3A6E745D2D /* lctype.h in Headers */ = {isa = PBXBuildFile; fileRef = CD758A89A995A2726475E918 /* lctype.h */; };
+		A89FEC3810FB4B32819AC587 /* NSString+BSONAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F06E7961E6C6780523356F /* NSString+BSONAdditions.h */; };
+		A90C367422674145DD7E3EF8 /* linit.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D3B71132218312EB134DC0B /* linit.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AADAC84E1B75BC7A81BFD185 /* lstate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C092806D0FE12E9B2D449C0 /* lstate.h */; };
+		AAE28C73423011248446AB56 /* lzio.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F54ECE1E88BE4289025D033 /* lzio.h */; };
+		AE151510E6F4F1AC05EBEA04 /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = D24A6DF63C7F928823C38386 /* encoding.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AE19DE972B918AAEA5DF88E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7327DF0F3FDD9DA4FED75D55 /* Foundation.framework */; };
+		AE2A96959640A899D943135B /* MongoConnection+Diagnostics.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CB9CC7FE8012AF0CFBCAAD /* MongoConnection+Diagnostics.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B29858922233E02B0B3560F7 /* BSONDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = B367D7C6305C3C77F0182F5B /* BSONDecoder.h */; };
+		B363CE2F87C7A08B5B80222A /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB2E628785346EE67D2349D /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B4809E2C4E8ED6CD501FE44E /* loadlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 03D7B810A5DC24774A8CF18F /* loadlib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B4A4A4BEB41069601568663F /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FF73555FCAD0E03E1243534 /* FMDatabase.h */; };
+		B4E73A9E39CA0B7A9FC2386D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7327DF0F3FDD9DA4FED75D55 /* Foundation.framework */; };
+		B5E9A6088E70D43EF9D9856A /* MongoDBCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 722C0A2D683F4A12936E4F49 /* MongoDBCollection.h */; };
+		B8EE08B59B3785E03AEA1264 /* bcon.c in Sources */ = {isa = PBXBuildFile; fileRef = 9F837C20A064A71B162BF564 /* bcon.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B9195556B1137075831CC2B3 /* MongoUpdateRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B1BD67BD52B1C359A7677DC4 /* MongoUpdateRequest.h */; };
+		B9733E3A297107E6C98B0428 /* Pods-lua-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C56EC19A15655BBE34D3E740 /* Pods-lua-dummy.m */; };
+		B9E13BA9605C53237A8CC95C /* llex.h in Headers */ = {isa = PBXBuildFile; fileRef = 912AA543CE95991F899AF15C /* llex.h */; };
+		BCD9103C24DD7E722DFE637C /* ltm.h in Headers */ = {isa = PBXBuildFile; fileRef = BDAABC565DA951599046C793 /* ltm.h */; };
+		BD3A1719AAD7B85DD36705A8 /* MongoKeyedPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A9410AB5CCB1EFE362F758 /* MongoKeyedPredicate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C224EC5CA8CC5A958334A221 /* NSData+BSONAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FA116605EFDFD3B41260EA /* NSData+BSONAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C235E938C14512A38D616415 /* lfunc.h in Headers */ = {isa = PBXBuildFile; fileRef = B13B8E7B187C5261D5BDBB67 /* lfunc.h */; };
+		C3CB4655498BD3339FBD5A3B /* lcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 88FF5AC45367FEAA34F1E2A7 /* lcode.h */; };
+		C577DBAE1E7BD2E10E448FC8 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8ADB71C329D611B4609BA1 /* Pods-dummy.m */; };
+		C8C754F7FDF753707B5B44A8 /* lbitlib.c in Sources */ = {isa = PBXBuildFile; fileRef = AF2FD926EE6FF726CDBA4B7E /* lbitlib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CBB29A6D4E149D7C0A374FD1 /* ObjCBSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A0DD1DA81AA3347F30FA0C /* ObjCBSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEFC26E2752CCB1948CE9661 /* MongoConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB44F52F98FA87F29B4A300 /* MongoConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CFEED99CBAF890E954AC6201 /* lobject.c in Sources */ = {isa = PBXBuildFile; fileRef = 13AE08EE7EA1C7ACAA1D98B4 /* lobject.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D024F1C288263B248C408450 /* lbaselib.c in Sources */ = {isa = PBXBuildFile; fileRef = 6E6D5081BC28E4CDE7EA0EEF /* lbaselib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D205DCAD873F75F6D623022E /* MongoDBCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = F539D9243BCBFF1F30EE9AF4 /* MongoDBCollection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D244BA5D1EF8C8875D688CF0 /* lmathlib.c in Sources */ = {isa = PBXBuildFile; fileRef = CBD99CDD37293B6FAFBA44D1 /* lmathlib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D2FB08E1AA4B260D7F9F31F7 /* MongoTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E17D9C54E84C698BDB2106 /* MongoTypes.h */; };
+		D45BF50D0695FC9B0AC9619F /* lstrlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C744A7B04FAD2FB18B9DC77 /* lstrlib.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D48C7C1C2FE331B74C231445 /* ldo.c in Sources */ = {isa = PBXBuildFile; fileRef = 84D11A8221E450602DCB631C /* ldo.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D76D29F41BF47B93A56709D2 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = C13F097677D9787EEE05D1BE /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D8D537881D4730B71466F24B /* MongoFindRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F7698AACF61C7C5CA66D14 /* MongoFindRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DA802B544E9381A6F1497CB7 /* BSONDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = D8B66307C8108A0807191FAD /* BSONDocument.h */; };
+		DD9302C7FA8D93827A5DB539 /* lvm.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F209928DB0ED6F197D9EF69 /* lvm.h */; };
+		DFDE1B5E8CC0D96F3FE92F8D /* BSON_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 117395B383059AFA211C7AED /* BSON_Helper.h */; };
+		DFF18CB501E2A95A42439779 /* MongoPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 818B7E00AD2D4B588893FDEC /* MongoPredicate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E1EA2104AD54ACD31D9031C8 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 064D042D0D8C9B7F67357AF1 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E1EC9C46D3FF913FD1B66484 /* ldebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 075CD6CE2278462014FBC1C4 /* ldebug.h */; };
+		E242EFCE3A59F66F8B68EDD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7327DF0F3FDD9DA4FED75D55 /* Foundation.framework */; };
+		E24BFF13B4203B03EA569304 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 44A53C37D251AFE0925EEEAE /* FMDB.h */; };
+		E4629CAF5146124B9F431CE6 /* BSONIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EEF0B1EDF88D084EC8C6E82 /* BSONIterator.h */; };
+		E4C298E0AC74EC60751407E2 /* MongoKeyedPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E362245418E10AA96982F4F /* MongoKeyedPredicate.h */; };
+		E73A5C9522E274AC63320AE6 /* NSManagedObject+BSONCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B6BD86C843C2F96CCA39C61 /* NSManagedObject+BSONCoding.h */; };
+		E75BC69921A38385ABFCA222 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = 141EE5520388BB8AB7D0D443 /* md5.h */; };
+		E76D4FDAD0FEBE0FC6E75AD2 /* lstring.h in Headers */ = {isa = PBXBuildFile; fileRef = F961ABA85C970C0AA8717B12 /* lstring.h */; };
+		E9224F0C1B813C1C7AF9B6D9 /* ObjCBSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B9AF5D7D93993CA912F0D92 /* ObjCBSON.h */; };
+		ED729F842F2C22ACEE864C0E /* NSManagedObject+BSONCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B39F895CDD812F23066D2E0 /* NSManagedObject+BSONCoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EE0F2FD5849F30DCDD644C3F /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 98458350D60D8881FA498E81 /* OrderedDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F24103DEA2CB363C52C1388E /* MongoFindRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA5CFE560F78D26B4851788 /* MongoFindRequest.h */; };
+		F47DC904497FE340E9B13142 /* Mongo_PrivateInterfaces.h in Headers */ = {isa = PBXBuildFile; fileRef = DEAF3B3E1130051F44210CEA /* Mongo_PrivateInterfaces.h */; };
+		F4D247A4DF07AF1E4C66BB17 /* MongoWriteConcern.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E8AD93ACC6FF189EF5FFC5 /* MongoWriteConcern.h */; };
+		F6234791092D871B51CE0470 /* BSON_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1289FBC5E4E8CD4BAF74E /* BSON_Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F6279E04AA9DD27AED29771B /* BSONDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B474004818027B0C1FF0A6FA /* BSONDocument.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F6D94108F99405DDF0483FAB /* MongoTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D13327F195CF7A2D468060C /* MongoTypes.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FAE0926C735BAE2D63BF24DE /* BSONDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB063AFA92701388CA57CFC /* BSONDecoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FB0CB8393A29792F17CF5915 /* lua.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C62DCC2BC83B99623383667 /* lua.h */; };
+		FD117C2586B93C990A9331BD /* bson.h in Headers */ = {isa = PBXBuildFile; fileRef = 194DC332F42ABF6DB0FA8B84 /* bson.h */; };
+		FD5BB378525A793E7360E988 /* numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 4BDABC785A28ED11F72E7F19 /* numbers.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF102E08639E44133D790145 /* OrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F8364297C8131D0FE35CC6D /* OrderedDictionary.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		55F1F87F8F63F77841280337 /* PBXContainerItemProxy */ = {
+		3B11504E378A0B8DF79AD002 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 05B42955370A31D7FFB0EA8C /* Project object */;
+			containerPortal = EAF3FB1810EF7E180BE26867 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B9B2230EF82FCC937CCEC7E7;
+			remoteGlobalIDString = 2F39CC0682BDD58C60F2B6E9;
+			remoteInfo = "Pods-ObjCMongoDB";
+		};
+		9B15B861EAB14E35872AF56F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF3FB1810EF7E180BE26867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DF206761225BE5B60CC4B77;
+			remoteInfo = "Pods-lua";
+		};
+		9D13072B21D0E00AF517699A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF3FB1810EF7E180BE26867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 120A407BFA01D76AC97B5E8B;
 			remoteInfo = "Pods-FMDB";
 		};
-		E79DF74FF67A95A29B68F2BD /* PBXContainerItemProxy */ = {
+		B075BAB0E9081DBA351CDDBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 05B42955370A31D7FFB0EA8C /* Project object */;
+			containerPortal = EAF3FB1810EF7E180BE26867 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 60F75F2D0526E9EC5A58C188;
-			remoteInfo = "Pods-lua";
+			remoteGlobalIDString = 6E7909566D080C271F995E52;
+			remoteInfo = "Pods-mongo-c-driver";
+		};
+		C0F54458FF75BB86E121461D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF3FB1810EF7E180BE26867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E7909566D080C271F995E52;
+			remoteInfo = "Pods-mongo-c-driver";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		090E22A0C7A49449A3255992 /* lua.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = lua.hpp; path = src/lua.hpp; sourceTree = "<group>"; };
-		0B2467F30FF543896DA26CC0 /* lundump.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lundump.h; path = src/lundump.h; sourceTree = "<group>"; };
-		0E6570EE37915794F5EDC6E5 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
-		12376ABBD7DE157277B19296 /* Pods-FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FMDB-prefix.pch"; sourceTree = "<group>"; };
-		13807463EE599F03D95AAA29 /* llex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = llex.h; path = src/llex.h; sourceTree = "<group>"; };
-		22060114F0F2DCFC64ED86A9 /* lmem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lmem.h; path = src/lmem.h; sourceTree = "<group>"; };
-		24D182059565E5AB87A1F816 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
-		258059B254FDE49E1746AE77 /* Pods-FMDB-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMDB-Private.xcconfig"; sourceTree = "<group>"; };
-		25C6CBD352887ECBCE2B4754 /* ltable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ltable.h; path = src/ltable.h; sourceTree = "<group>"; };
-		2773E9F2C3A9EC5F5237E85F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2804581808DF766E33FC3B0A /* libPods-lua.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lua.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2878FDCC4E78B0F5FD5BAF78 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
-		2B7BBDE002D2AC25DF58E5D9 /* loslib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = loslib.c; path = src/loslib.c; sourceTree = "<group>"; };
-		2F709CA90C58A3BD121DC6D6 /* Pods-lua-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lua-Private.xcconfig"; sourceTree = "<group>"; };
-		302559166A69D3FAA055D3E3 /* lcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lcode.h; path = src/lcode.h; sourceTree = "<group>"; };
-		30BC3EA22692AD732004F52C /* lobject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lobject.h; path = src/lobject.h; sourceTree = "<group>"; };
-		37D409C54BB2CA56716FC513 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
-		3BC6C17B1A85DCB51C9DF68B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		3E636E29BD6899228F665EAD /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
-		41BD80247CC78DFF1B9F2A07 /* ltm.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ltm.c; path = src/ltm.c; sourceTree = "<group>"; };
-		42B031E22BDD8D4E7AB8E16E /* lobject.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lobject.c; path = src/lobject.c; sourceTree = "<group>"; };
-		49140F2951C58580D4974A04 /* luaconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = luaconf.h; path = src/luaconf.h; sourceTree = "<group>"; };
-		4BCF108117C3D29ED60D6062 /* Pods-lua-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lua-dummy.m"; sourceTree = "<group>"; };
-		4CD3E014714A097C84A79891 /* lstate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lstate.h; path = src/lstate.h; sourceTree = "<group>"; };
-		4D4442D8DA45D3A966E7223D /* ldebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ldebug.h; path = src/ldebug.h; sourceTree = "<group>"; };
-		503C504E7DD90E02527B1E10 /* lvm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lvm.h; path = src/lvm.h; sourceTree = "<group>"; };
-		51383174234174D0B5BBE2C8 /* llex.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = llex.c; path = src/llex.c; sourceTree = "<group>"; };
-		54388EFC823B8750F8506F4B /* loadlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = loadlib.c; path = src/loadlib.c; sourceTree = "<group>"; };
-		56AA59A8405BD979CE181EBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		59C9BAE01889A59F1CBE4C79 /* lvm.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lvm.c; path = src/lvm.c; sourceTree = "<group>"; };
-		59DCACF2081AD1E85DDD34AB /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		5B0D17B8578BA2BA9BA37B68 /* ldebug.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ldebug.c; path = src/ldebug.c; sourceTree = "<group>"; };
-		5B305B0C8476C98294195738 /* Pods-lua.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lua.xcconfig"; sourceTree = "<group>"; };
-		5CC7153F48145783AF067B80 /* Pods-lua-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-lua-prefix.pch"; sourceTree = "<group>"; };
-		5D128A3AFC65B27546D90CAC /* lbaselib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lbaselib.c; path = src/lbaselib.c; sourceTree = "<group>"; };
-		5E5E569911737C7475C66801 /* ldo.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ldo.c; path = src/ldo.c; sourceTree = "<group>"; };
-		6022B4754C54667E248513BB /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
-		603A711CA06869627A9BFC23 /* ldump.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ldump.c; path = src/ldump.c; sourceTree = "<group>"; };
-		6313F38304D907A1E568709D /* lapi.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lapi.c; path = src/lapi.c; sourceTree = "<group>"; };
-		65B409AD65EA6E4CC6EA9369 /* liolib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = liolib.c; path = src/liolib.c; sourceTree = "<group>"; };
-		65F8C921777B72F3586F6141 /* linit.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = linit.c; path = src/linit.c; sourceTree = "<group>"; };
-		66652E4AA0D95010BDA19A23 /* lstrlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lstrlib.c; path = src/lstrlib.c; sourceTree = "<group>"; };
-		6EB39661C128A9D00D9B101B /* lcode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lcode.c; path = src/lcode.c; sourceTree = "<group>"; };
-		743A286B05D7808E241FA41F /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		757CC67105CFAF171C5C17E9 /* lualib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lualib.h; path = src/lualib.h; sourceTree = "<group>"; };
-		7B92B35E6B06CB6DCF8CF716 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		7C5614861DD8BEF5D05119C3 /* Pods-FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMDB.xcconfig"; sourceTree = "<group>"; };
-		7EB4AE4D029E8E42FC951DDC /* lcorolib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lcorolib.c; path = src/lcorolib.c; sourceTree = "<group>"; };
-		7EC548C66CF90E4A573B68A6 /* lapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lapi.h; path = src/lapi.h; sourceTree = "<group>"; };
-		869E1E85712681931E2C0F16 /* lfunc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lfunc.h; path = src/lfunc.h; sourceTree = "<group>"; };
-		86ED7D3278E359CB92D5F432 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		86FAA419CEEF190163B91E68 /* ldblib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ldblib.c; path = src/ldblib.c; sourceTree = "<group>"; };
-		8CAD2EA48C9626FF14CC1939 /* lgc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lgc.h; path = src/lgc.h; sourceTree = "<group>"; };
-		8D6740B14A077F064A90C28B /* libPods-FMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FMDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		90DA0605181DC54FB16A0438 /* lstate.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lstate.c; path = src/lstate.c; sourceTree = "<group>"; };
-		91ACE511ABEA5FE0BCB2312E /* lbitlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lbitlib.c; path = src/lbitlib.c; sourceTree = "<group>"; };
-		958F75A044DEE8403FCB520B /* ltm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ltm.h; path = src/ltm.h; sourceTree = "<group>"; };
-		97C186DD8D4A50F94CD330C4 /* lgc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lgc.c; path = src/lgc.c; sourceTree = "<group>"; };
-		9B0B92C5CC85E74686FA1114 /* lmem.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lmem.c; path = src/lmem.c; sourceTree = "<group>"; };
-		9B6589561F52C45C2FF55306 /* lctype.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lctype.c; path = src/lctype.c; sourceTree = "<group>"; };
-		9BF98B39A7C7AAB3C52EEDDB /* llimits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = llimits.h; path = src/llimits.h; sourceTree = "<group>"; };
-		9DC8786D0C5770A7194EE04F /* ltable.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ltable.c; path = src/ltable.c; sourceTree = "<group>"; };
-		9FE019F1E4C42E5F150EF757 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
-		A33F17F6F2B9C0AE614FC9E1 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A4B66BB060500D80E6AB81C8 /* lmathlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lmathlib.c; path = src/lmathlib.c; sourceTree = "<group>"; };
-		A4D0D3AB684246F1AE49EB50 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
-		A899BE115AE23A51B3AE5B41 /* lzio.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lzio.c; path = src/lzio.c; sourceTree = "<group>"; };
-		B31253B5F0F9D9B26F743E28 /* lparser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lparser.h; path = src/lparser.h; sourceTree = "<group>"; };
-		BBF8453380C509CA0FA47070 /* ltablib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ltablib.c; path = src/ltablib.c; sourceTree = "<group>"; };
-		BC55ACD9C6C399C68357FD44 /* lfunc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lfunc.c; path = src/lfunc.c; sourceTree = "<group>"; };
-		CC586B57D0544A5D4C846E38 /* lctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lctype.h; path = src/lctype.h; sourceTree = "<group>"; };
-		D0520327200F7C0738A9850F /* lparser.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lparser.c; path = src/lparser.c; sourceTree = "<group>"; };
-		D0C76C53204BDD6651EED0B8 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
-		D288CC7D88A13A02ECBCF1F6 /* lua.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lua.h; path = src/lua.h; sourceTree = "<group>"; };
-		D763F9FE0FED7E8C5030680B /* lauxlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lauxlib.c; path = src/lauxlib.c; sourceTree = "<group>"; };
-		DA4A450C4D865D2546D8944E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		DABE5724C5C12D53BA71FB29 /* lopcodes.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lopcodes.c; path = src/lopcodes.c; sourceTree = "<group>"; };
-		DC9ACC00ADD209820E89FB3A /* lstring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lstring.h; path = src/lstring.h; sourceTree = "<group>"; };
-		DFB0800A4EBA3ACE40F76E99 /* Pods-FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FMDB-dummy.m"; sourceTree = "<group>"; };
-		E61A6022041B83266859B4A3 /* lauxlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lauxlib.h; path = src/lauxlib.h; sourceTree = "<group>"; };
-		E847F3058C7EEF7246741390 /* lzio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lzio.h; path = src/lzio.h; sourceTree = "<group>"; };
-		EB21E40ACD3F647C5260AE9A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		EF150D890DEE62A032FF0632 /* lundump.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lundump.c; path = src/lundump.c; sourceTree = "<group>"; };
-		F0F4295127B2EB79300E6E49 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		F4E5138D2C42984561034181 /* ldo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ldo.h; path = src/ldo.h; sourceTree = "<group>"; };
-		F765C188858DFDB8DEB1754F /* lstring.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lstring.c; path = src/lstring.c; sourceTree = "<group>"; };
-		F872308690FAF58239AA1677 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCC565FA3C3936BDC8640A30 /* lopcodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lopcodes.h; path = src/lopcodes.h; sourceTree = "<group>"; };
+		007474AC345CAD3B6A83D00B /* bcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bcon.h; path = src/bcon.h; sourceTree = "<group>"; };
+		031E020CCF13BD2D7DA56A8E /* Pods-FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FMDB-prefix.pch"; sourceTree = "<group>"; };
+		0393DBE52396392EBB6600B0 /* liolib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = liolib.c; path = src/liolib.c; sourceTree = "<group>"; };
+		03D7B810A5DC24774A8CF18F /* loadlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = loadlib.c; path = src/loadlib.c; sourceTree = "<group>"; };
+		05A9410AB5CCB1EFE362F758 /* MongoKeyedPredicate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MongoKeyedPredicate.m; path = Mongo/MongoKeyedPredicate.m; sourceTree = "<group>"; };
+		0631E1FB2003D68D77F85733 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		064D042D0D8C9B7F67357AF1 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		074C69BA29876F20DB267F9A /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		075CD6CE2278462014FBC1C4 /* ldebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ldebug.h; path = src/ldebug.h; sourceTree = "<group>"; };
+		0781D0E1AF0E00892E2B591F /* ltable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ltable.h; path = src/ltable.h; sourceTree = "<group>"; };
+		0AB7851287B290E1495A49D5 /* lmem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lmem.h; path = src/lmem.h; sourceTree = "<group>"; };
+		0B26F336AD353FE256CE6368 /* Pods-mongo-c-driver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mongo-c-driver-prefix.pch"; sourceTree = "<group>"; };
+		0BAB553640F6FB2D091D9713 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		0BB44F52F98FA87F29B4A300 /* MongoConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MongoConnection.m; path = Mongo/MongoConnection.m; sourceTree = "<group>"; };
+		0BB515D8A08F524F46842D33 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		0CCAF21CE007E4121C899314 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		0F0FA99E51BA4F2C32EF8446 /* lcode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lcode.c; path = src/lcode.c; sourceTree = "<group>"; };
+		0F209928DB0ED6F197D9EF69 /* lvm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lvm.h; path = src/lvm.h; sourceTree = "<group>"; };
+		0F5B55D6D1F34B89AE5A9C44 /* NSArray+MongoAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MongoAdditions.h"; path = "Mongo/NSArray+MongoAdditions.h"; sourceTree = "<group>"; };
+		0FA234DB5791C5C13248830B /* BSON_PrivateInterfaces.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSON_PrivateInterfaces.h; path = BSON/BSON_PrivateInterfaces.h; sourceTree = "<group>"; };
+		0FF73555FCAD0E03E1243534 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		117395B383059AFA211C7AED /* BSON_Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSON_Helper.h; path = BSON/BSON_Helper.h; sourceTree = "<group>"; };
+		133072124018E32FA8CE3E01 /* lua.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = lua.hpp; path = src/lua.hpp; sourceTree = "<group>"; };
+		13AE08EE7EA1C7ACAA1D98B4 /* lobject.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lobject.c; path = src/lobject.c; sourceTree = "<group>"; };
+		141EE5520388BB8AB7D0D443 /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md5.h; path = src/md5.h; sourceTree = "<group>"; };
+		171BB226E78FC17A4778A801 /* Mongo_Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mongo_Helper.h; path = Mongo/Mongo_Helper.h; sourceTree = "<group>"; };
+		178DFBFA1A0502D8E7512DCB /* Pods-ObjCMongoDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ObjCMongoDB-prefix.pch"; sourceTree = "<group>"; };
+		17DAB0640B0DC6BA876B7FD4 /* MongoPredicate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MongoPredicate.h; path = Mongo/MongoPredicate.h; sourceTree = "<group>"; };
+		1805C887C4C4364EB4F57430 /* libPods-ObjCMongoDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCMongoDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		194DC332F42ABF6DB0FA8B84 /* bson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bson.h; path = src/bson.h; sourceTree = "<group>"; };
+		1C62DCC2BC83B99623383667 /* lua.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lua.h; path = src/lua.h; sourceTree = "<group>"; };
+		1F2BFC97F61903D6FA3F08D9 /* lundump.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lundump.c; path = src/lundump.c; sourceTree = "<group>"; };
+		2779BEA5852D3EF76C554643 /* Pods-FMDB-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMDB-Private.xcconfig"; sourceTree = "<group>"; };
+		28DF28D24BB2928363216182 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		299C30D071597F06B3CF8565 /* ldebug.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ldebug.c; path = src/ldebug.c; sourceTree = "<group>"; };
+		2A11A377631684C1EB9850C3 /* lauxlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lauxlib.c; path = src/lauxlib.c; sourceTree = "<group>"; };
+		30724F83C200176B6C103AFA /* luaconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = luaconf.h; path = src/luaconf.h; sourceTree = "<group>"; };
+		31924EBDC529E1A9A8B2A986 /* MongoCursor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MongoCursor.h; path = Mongo/MongoCursor.h; sourceTree = "<group>"; };
+		335DD1DF0A1B17136ED3E218 /* ldump.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ldump.c; path = src/ldump.c; sourceTree = "<group>"; };
+		345C8C2253FD978337C51A29 /* NSDictionary+BSONAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+BSONAdditions.m"; path = "BSON/NSDictionary+BSONAdditions.m"; sourceTree = "<group>"; };
+		34E8AD93ACC6FF189EF5FFC5 /* MongoWriteConcern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MongoWriteConcern.h; path = Mongo/MongoWriteConcern.h; sourceTree = "<group>"; };
+		359EFDA9ADB19C7F97E37F6A /* lopcodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lopcodes.h; path = src/lopcodes.h; sourceTree = "<group>"; };
+		393071BD3E003F365CF10E0E /* gridfs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gridfs.h; path = src/gridfs.h; sourceTree = "<group>"; };
+		3BA73A592D88157FD84164EB /* lualib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lualib.h; path = src/lualib.h; sourceTree = "<group>"; };
+		3D2DBAD7EAB0957B5BB40D27 /* lapi.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lapi.c; path = src/lapi.c; sourceTree = "<group>"; };
+		3D2E169053A7673E3C8A9A32 /* Pods-mongo-c-driver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mongo-c-driver-dummy.m"; sourceTree = "<group>"; };
+		40C1BC7C812DA9D17CA7BD1B /* libPods-FMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FMDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		436CB244650BB57102D14676 /* lauxlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lauxlib.h; path = src/lauxlib.h; sourceTree = "<group>"; };
+		44A53C37D251AFE0925EEEAE /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		49F5EE97160208B50D588FB3 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		49FA85AE2356EAB3DECEB515 /* Mongo_Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Mongo_Helper.m; path = Mongo/Mongo_Helper.m; sourceTree = "<group>"; };
+		4B60B53413AC3B4E812CCC94 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BC58CFBB92965E734FC9593 /* BSONTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSONTypes.h; path = BSON/BSONTypes.h; sourceTree = "<group>"; };
+		4BC7B1617723C1423BF6960D /* NSDictionary+BSONAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+BSONAdditions.h"; path = "BSON/NSDictionary+BSONAdditions.h"; sourceTree = "<group>"; };
+		4BDABC785A28ED11F72E7F19 /* numbers.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = numbers.c; path = src/numbers.c; sourceTree = "<group>"; };
+		4BE40610C133E9C25A2040CE /* ltm.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ltm.c; path = src/ltm.c; sourceTree = "<group>"; };
+		4C744A7B04FAD2FB18B9DC77 /* lstrlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lstrlib.c; path = src/lstrlib.c; sourceTree = "<group>"; };
+		4E25EA7DF79A5423282E8206 /* Pods-ObjCMongoDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ObjCMongoDB-dummy.m"; sourceTree = "<group>"; };
+		509CEF87ED5383B8C9974519 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		538EC118319FE0E5A4447986 /* BSONTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSONTypes.m; path = BSON/BSONTypes.m; sourceTree = "<group>"; };
+		59647F337523A0F8F79D0F97 /* BSONCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSONCoding.h; path = BSON/BSONCoding.h; sourceTree = "<group>"; };
+		5AB2E628785346EE67D2349D /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		5B39F895CDD812F23066D2E0 /* NSManagedObject+BSONCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+BSONCoding.m"; path = "BSON/NSManagedObject+BSONCoding.m"; sourceTree = "<group>"; };
+		5BA5CFE560F78D26B4851788 /* MongoFindRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MongoFindRequest.h; path = Mongo/MongoFindRequest.h; sourceTree = "<group>"; };
+		5EEF0B1EDF88D084EC8C6E82 /* BSONIterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSONIterator.h; path = BSON/BSONIterator.h; sourceTree = "<group>"; };
+		621D710BF13C951363057E30 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6E51BB6BBC1355816D9EFE91 /* Pods-mongo-c-driver-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mongo-c-driver-Private.xcconfig"; sourceTree = "<group>"; };
+		6E6D5081BC28E4CDE7EA0EEF /* lbaselib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lbaselib.c; path = src/lbaselib.c; sourceTree = "<group>"; };
+		6E981BA74A963AC8AF490E01 /* NSArray+MongoAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MongoAdditions.m"; path = "Mongo/NSArray+MongoAdditions.m"; sourceTree = "<group>"; };
+		722C0A2D683F4A12936E4F49 /* MongoDBCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MongoDBCollection.h; path = Mongo/MongoDBCollection.h; sourceTree = "<group>"; };
+		7327DF0F3FDD9DA4FED75D55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		737317BE5390A9FB02AD8AA0 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		74B329D36142BED092388ACD /* Pods-lua.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lua.xcconfig"; sourceTree = "<group>"; };
+		7B9AF5D7D93993CA912F0D92 /* ObjCBSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjCBSON.h; path = BSON/ObjCBSON.h; sourceTree = "<group>"; };
+		7CF16BBEAFDE4937BA5B3EEB /* lobject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lobject.h; path = src/lobject.h; sourceTree = "<group>"; };
+		7CF8223BC0651353ADC571E1 /* lvm.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lvm.c; path = src/lvm.c; sourceTree = "<group>"; };
+		7D3B71132218312EB134DC0B /* linit.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = linit.c; path = src/linit.c; sourceTree = "<group>"; };
+		7E362245418E10AA96982F4F /* MongoKeyedPredicate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MongoKeyedPredicate.h; path = Mongo/MongoKeyedPredicate.h; sourceTree = "<group>"; };
+		7F2931C00C6AC358D9A0B2EE /* NSData+BSONAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+BSONAdditions.h"; path = "BSON/NSData+BSONAdditions.h"; sourceTree = "<group>"; };
+		818B7E00AD2D4B588893FDEC /* MongoPredicate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MongoPredicate.m; path = Mongo/MongoPredicate.m; sourceTree = "<group>"; };
+		829866F3D76BA6097FB6499F /* libPods-lua.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lua.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D11A8221E450602DCB631C /* ldo.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ldo.c; path = src/ldo.c; sourceTree = "<group>"; };
+		88A9D58B0A47DAA28DE5066F /* MongoWriteConcern.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MongoWriteConcern.m; path = Mongo/MongoWriteConcern.m; sourceTree = "<group>"; };
+		88EA6D3293BCF23CDE477AC2 /* BSONIterator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSONIterator.m; path = BSON/BSONIterator.m; sourceTree = "<group>"; };
+		88FF5AC45367FEAA34F1E2A7 /* lcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lcode.h; path = src/lcode.h; sourceTree = "<group>"; };
+		89ED7F4E663E5ADFB1DD6592 /* MongoUpdateRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MongoUpdateRequest.m; path = Mongo/MongoUpdateRequest.m; sourceTree = "<group>"; };
+		8A53BABB97A8CBCF52E36E3D /* lgc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lgc.h; path = src/lgc.h; sourceTree = "<group>"; };
+		8AE3A148C622FB632F072D47 /* lstate.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lstate.c; path = src/lstate.c; sourceTree = "<group>"; };
+		8B2F263836139AA063369DFD /* lopcodes.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lopcodes.c; path = src/lopcodes.c; sourceTree = "<group>"; };
+		8B98498E73608B03A2C5CD96 /* lparser.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lparser.c; path = src/lparser.c; sourceTree = "<group>"; };
+		8D13327F195CF7A2D468060C /* MongoTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MongoTypes.m; path = Mongo/MongoTypes.m; sourceTree = "<group>"; };
+		8E3E1A62900835355684CC44 /* lfunc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lfunc.c; path = src/lfunc.c; sourceTree = "<group>"; };
+		8E8596E019471DFDC3C8578F /* lstring.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lstring.c; path = src/lstring.c; sourceTree = "<group>"; };
+		8F22681F76EC11D415303940 /* Pods-ObjCMongoDB-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjCMongoDB-Private.xcconfig"; sourceTree = "<group>"; };
+		8F54ECE1E88BE4289025D033 /* lzio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lzio.h; path = src/lzio.h; sourceTree = "<group>"; };
+		8F8364297C8131D0FE35CC6D /* OrderedDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OrderedDictionary.h; path = OrderedDictionary/OrderedDictionary.h; sourceTree = "<group>"; };
+		90552BC50BE7651AD774FBC3 /* NSString+BSONAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+BSONAdditions.m"; path = "BSON/NSString+BSONAdditions.m"; sourceTree = "<group>"; };
+		912AA543CE95991F899AF15C /* llex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = llex.h; path = src/llex.h; sourceTree = "<group>"; };
+		93E17D9C54E84C698BDB2106 /* MongoTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MongoTypes.h; path = Mongo/MongoTypes.h; sourceTree = "<group>"; };
+		943B2E73DE5B576DEB3DA260 /* lctype.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lctype.c; path = src/lctype.c; sourceTree = "<group>"; };
+		98458350D60D8881FA498E81 /* OrderedDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OrderedDictionary.m; path = OrderedDictionary/OrderedDictionary.m; sourceTree = "<group>"; };
+		9B6BD86C843C2F96CCA39C61 /* NSManagedObject+BSONCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+BSONCoding.h"; path = "BSON/NSManagedObject+BSONCoding.h"; sourceTree = "<group>"; };
+		9C092806D0FE12E9B2D449C0 /* lstate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lstate.h; path = src/lstate.h; sourceTree = "<group>"; };
+		9CD68B03910B8ADE852A71AF /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
+		9CDAE82721DE5DD7C84F1789 /* loslib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = loslib.c; path = src/loslib.c; sourceTree = "<group>"; };
+		9CDEFFFA8E778D41DE2E838C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9F837C20A064A71B162BF564 /* bcon.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = bcon.c; path = src/bcon.c; sourceTree = "<group>"; };
+		A2EB522B81B59A0059D80014 /* lzio.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lzio.c; path = src/lzio.c; sourceTree = "<group>"; };
+		A3F8D3315BA869DFA5CBF5A7 /* lparser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lparser.h; path = src/lparser.h; sourceTree = "<group>"; };
+		A5535D71F662A2FEDD6CE80B /* llex.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = llex.c; path = src/llex.c; sourceTree = "<group>"; };
+		ABB063AFA92701388CA57CFC /* BSONDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSONDecoder.m; path = BSON/BSONDecoder.m; sourceTree = "<group>"; };
+		AE8ADB71C329D611B4609BA1 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		AEF83F6072E3D473A7D62B16 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		AF2FD926EE6FF726CDBA4B7E /* lbitlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lbitlib.c; path = src/lbitlib.c; sourceTree = "<group>"; };
+		B13B8E7B187C5261D5BDBB67 /* lfunc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lfunc.h; path = src/lfunc.h; sourceTree = "<group>"; };
+		B1BD67BD52B1C359A7677DC4 /* MongoUpdateRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MongoUpdateRequest.h; path = Mongo/MongoUpdateRequest.h; sourceTree = "<group>"; };
+		B367D7C6305C3C77F0182F5B /* BSONDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSONDecoder.h; path = BSON/BSONDecoder.h; sourceTree = "<group>"; };
+		B3686C4FD4461A4B26D3F648 /* bson.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = bson.c; path = src/bson.c; sourceTree = "<group>"; };
+		B474004818027B0C1FF0A6FA /* BSONDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSONDocument.m; path = BSON/BSONDocument.m; sourceTree = "<group>"; };
+		B4DC6ED7F720BF7C2F4ADA31 /* ldo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ldo.h; path = src/ldo.h; sourceTree = "<group>"; };
+		B975864CE941C7E1279D8BBF /* Pods-FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMDB.xcconfig"; sourceTree = "<group>"; };
+		B9DC078650248F669BDFC872 /* MongoConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MongoConnection.h; path = Mongo/MongoConnection.h; sourceTree = "<group>"; };
+		BAF6E62619AF6698B999EB7D /* gridfs.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = gridfs.c; path = src/gridfs.c; sourceTree = "<group>"; };
+		BB62FC270EECF2C8243D4619 /* llimits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = llimits.h; path = src/llimits.h; sourceTree = "<group>"; };
+		BC7CCF555ABB111D0F499741 /* lmem.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lmem.c; path = src/lmem.c; sourceTree = "<group>"; };
+		BDAABC565DA951599046C793 /* ltm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ltm.h; path = src/ltm.h; sourceTree = "<group>"; };
+		BFF1ED46B0DE55C5FE76D800 /* env.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = env.c; path = src/env.c; sourceTree = "<group>"; };
+		C005999B86D37ED5010FF08D /* ldblib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ldblib.c; path = src/ldblib.c; sourceTree = "<group>"; };
+		C0FA116605EFDFD3B41260EA /* NSData+BSONAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+BSONAdditions.m"; path = "BSON/NSData+BSONAdditions.m"; sourceTree = "<group>"; };
+		C13F097677D9787EEE05D1BE /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		C47B249F41D7504B9B8338A0 /* Pods-lua-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lua-Private.xcconfig"; sourceTree = "<group>"; };
+		C4D9E2B5FC773D5D7AFEC6CF /* Pods-ObjCMongoDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjCMongoDB.xcconfig"; sourceTree = "<group>"; };
+		C4F1289FBC5E4E8CD4BAF74E /* BSON_Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSON_Helper.m; path = BSON/BSON_Helper.m; sourceTree = "<group>"; };
+		C56EC19A15655BBE34D3E740 /* Pods-lua-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lua-dummy.m"; sourceTree = "<group>"; };
+		C80405D00B5161895D014DDF /* ObjCMongoDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjCMongoDB.h; path = Mongo/ObjCMongoDB.h; sourceTree = "<group>"; };
+		CBD99CDD37293B6FAFBA44D1 /* lmathlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lmathlib.c; path = src/lmathlib.c; sourceTree = "<group>"; };
+		CD758A89A995A2726475E918 /* lctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lctype.h; path = src/lctype.h; sourceTree = "<group>"; };
+		CF555E14C2D5A5292E270B50 /* Pods-lua-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-lua-prefix.pch"; sourceTree = "<group>"; };
+		CF781EEA9350B7B577190F19 /* MongoCursor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MongoCursor.m; path = Mongo/MongoCursor.m; sourceTree = "<group>"; };
+		CFD9E8F1A92D37A1F364400B /* lgc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lgc.c; path = src/lgc.c; sourceTree = "<group>"; };
+		D24A6DF63C7F928823C38386 /* encoding.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = encoding.c; path = src/encoding.c; sourceTree = "<group>"; };
+		D2CB9CC7FE8012AF0CFBCAAD /* MongoConnection+Diagnostics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MongoConnection+Diagnostics.m"; path = "Mongo/MongoConnection+Diagnostics.m"; sourceTree = "<group>"; };
+		D3F7698AACF61C7C5CA66D14 /* MongoFindRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MongoFindRequest.m; path = Mongo/MongoFindRequest.m; sourceTree = "<group>"; };
+		D4A0DD1DA81AA3347F30FA0C /* ObjCBSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ObjCBSON.m; path = BSON/ObjCBSON.m; sourceTree = "<group>"; };
+		D6F06E7961E6C6780523356F /* NSString+BSONAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+BSONAdditions.h"; path = "BSON/NSString+BSONAdditions.h"; sourceTree = "<group>"; };
+		D8B66307C8108A0807191FAD /* BSONDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSONDocument.h; path = BSON/BSONDocument.h; sourceTree = "<group>"; };
+		DD10AF69FE1A72B85AC6C8E9 /* BSONEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSONEncoder.h; path = BSON/BSONEncoder.h; sourceTree = "<group>"; };
+		DD638A5C356150D46443F76C /* libPods-mongo-c-driver.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mongo-c-driver.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAF3B3E1130051F44210CEA /* Mongo_PrivateInterfaces.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mongo_PrivateInterfaces.h; path = Mongo/Mongo_PrivateInterfaces.h; sourceTree = "<group>"; };
+		E15F80499DB47E55E321EB65 /* Pods-mongo-c-driver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mongo-c-driver.xcconfig"; sourceTree = "<group>"; };
+		E356350CC0535CEE62485DE5 /* lapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lapi.h; path = src/lapi.h; sourceTree = "<group>"; };
+		E5DEFBB2D8C378AF7145F542 /* lcorolib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lcorolib.c; path = src/lcorolib.c; sourceTree = "<group>"; };
+		E9218CDADCB01FF1E53EC952 /* BSONEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSONEncoder.m; path = BSON/BSONEncoder.m; sourceTree = "<group>"; };
+		EA2252C84296566E8B8AD40B /* Pods-FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FMDB-dummy.m"; sourceTree = "<group>"; };
+		EB623A458FB044C48BE02C73 /* env.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = env.h; path = src/env.h; sourceTree = "<group>"; };
+		EBABFAB365B4691A6BBFDF22 /* MongoConnection+Diagnostics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MongoConnection+Diagnostics.h"; path = "Mongo/MongoConnection+Diagnostics.h"; sourceTree = "<group>"; };
+		EC4675AAC3D5E95598EFE79D /* ltablib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ltablib.c; path = src/ltablib.c; sourceTree = "<group>"; };
+		EEFD2345A475FE2C9C8E9459 /* encoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = encoding.h; path = src/encoding.h; sourceTree = "<group>"; };
+		F39890B8AD2E32C2A0E65423 /* md5.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = md5.c; path = src/md5.c; sourceTree = "<group>"; };
+		F47064422AE07F2C8BEF28D1 /* mongo.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mongo.c; path = src/mongo.c; sourceTree = "<group>"; };
+		F539D9243BCBFF1F30EE9AF4 /* MongoDBCollection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MongoDBCollection.m; path = Mongo/MongoDBCollection.m; sourceTree = "<group>"; };
+		F75A65D58A227E1517D66CBE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		F957CD7ADBE87A082BEEFE98 /* ltable.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ltable.c; path = src/ltable.c; sourceTree = "<group>"; };
+		F961ABA85C970C0AA8717B12 /* lstring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lstring.h; path = src/lstring.h; sourceTree = "<group>"; };
+		FBBDB040E9E3D0DB474BA6AB /* lundump.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lundump.h; path = src/lundump.h; sourceTree = "<group>"; };
+		FD868847152B18EBCA70470C /* mongo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mongo.h; path = src/mongo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		83AA5B8EA7F890190700C78D /* Frameworks */ = {
+		2EA04041E734680F13629CC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD21C5CF973E1D206C9A3B3E /* Foundation.framework in Frameworks */,
+				0226CFF3F10A0EF5B49475F0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B55ACCD2D73B0DC4C22FB21 /* Frameworks */ = {
+		C0FBFA2842FE254A3D324139 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76E19A4D5AD16A2E5E321B9A /* Foundation.framework in Frameworks */,
+				3C1E491B901BC29F6771A763 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADE04BABD746A7EAD6BD9CA0 /* Frameworks */ = {
+		D8594933CACBE0CA009775B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A48BE9D63221184C83DFC5E /* Foundation.framework in Frameworks */,
+				AE19DE972B918AAEA5DF88E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4CFAA97F5AE804C8AF6887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E242EFCE3A59F66F8B68EDD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5CD4FA0A8DE0021B1F8D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E73A9E39CA0B7A9FC2386D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01F762D9434C9EB1329AFA9B /* Products */ = {
+		03376EA43EB441CE887B2D38 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F872308690FAF58239AA1677 /* libPods.a */,
-				8D6740B14A077F064A90C28B /* libPods-FMDB.a */,
-				2804581808DF766E33FC3B0A /* libPods-lua.a */,
+				09516CE0D39FD081097467CB /* FMDB */,
+				84B1B56CD39E85E737820628 /* ObjCMongoDB */,
+				F2FABC84F06E31041FBCF77F /* couchbase-lite-ios */,
+				492E45DC1B0A6BCB3702888F /* lua */,
+				D58E3D2F4B3AA5ACA6688DCA /* mongo-c-driver */,
 			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		0BEECB87722D0FA103268FBA /* FMDB */ = {
+		09516CE0D39FD081097467CB /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
-				AB60D96FDAAA6B844F0624CD /* Support Files */,
-				47EA96F027F24FD46E456D08 /* common */,
+				E2180F30AB87E450E85CC5C0 /* Support Files */,
+				78C0F322FA7829B0CFAC5E71 /* common */,
 			);
 			path = FMDB;
 			sourceTree = "<group>";
 		};
-		2BA58A111313E23BE014B84F /* lua */ = {
+		1B5BD31DF3952D466E28B11D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6313F38304D907A1E568709D /* lapi.c */,
-				7EC548C66CF90E4A573B68A6 /* lapi.h */,
-				D763F9FE0FED7E8C5030680B /* lauxlib.c */,
-				E61A6022041B83266859B4A3 /* lauxlib.h */,
-				5D128A3AFC65B27546D90CAC /* lbaselib.c */,
-				91ACE511ABEA5FE0BCB2312E /* lbitlib.c */,
-				6EB39661C128A9D00D9B101B /* lcode.c */,
-				302559166A69D3FAA055D3E3 /* lcode.h */,
-				7EB4AE4D029E8E42FC951DDC /* lcorolib.c */,
-				9B6589561F52C45C2FF55306 /* lctype.c */,
-				CC586B57D0544A5D4C846E38 /* lctype.h */,
-				86FAA419CEEF190163B91E68 /* ldblib.c */,
-				5B0D17B8578BA2BA9BA37B68 /* ldebug.c */,
-				4D4442D8DA45D3A966E7223D /* ldebug.h */,
-				5E5E569911737C7475C66801 /* ldo.c */,
-				F4E5138D2C42984561034181 /* ldo.h */,
-				603A711CA06869627A9BFC23 /* ldump.c */,
-				BC55ACD9C6C399C68357FD44 /* lfunc.c */,
-				869E1E85712681931E2C0F16 /* lfunc.h */,
-				97C186DD8D4A50F94CD330C4 /* lgc.c */,
-				8CAD2EA48C9626FF14CC1939 /* lgc.h */,
-				65F8C921777B72F3586F6141 /* linit.c */,
-				65B409AD65EA6E4CC6EA9369 /* liolib.c */,
-				51383174234174D0B5BBE2C8 /* llex.c */,
-				13807463EE599F03D95AAA29 /* llex.h */,
-				9BF98B39A7C7AAB3C52EEDDB /* llimits.h */,
-				A4B66BB060500D80E6AB81C8 /* lmathlib.c */,
-				9B0B92C5CC85E74686FA1114 /* lmem.c */,
-				22060114F0F2DCFC64ED86A9 /* lmem.h */,
-				54388EFC823B8750F8506F4B /* loadlib.c */,
-				42B031E22BDD8D4E7AB8E16E /* lobject.c */,
-				30BC3EA22692AD732004F52C /* lobject.h */,
-				DABE5724C5C12D53BA71FB29 /* lopcodes.c */,
-				FCC565FA3C3936BDC8640A30 /* lopcodes.h */,
-				2B7BBDE002D2AC25DF58E5D9 /* loslib.c */,
-				D0520327200F7C0738A9850F /* lparser.c */,
-				B31253B5F0F9D9B26F743E28 /* lparser.h */,
-				90DA0605181DC54FB16A0438 /* lstate.c */,
-				4CD3E014714A097C84A79891 /* lstate.h */,
-				F765C188858DFDB8DEB1754F /* lstring.c */,
-				DC9ACC00ADD209820E89FB3A /* lstring.h */,
-				66652E4AA0D95010BDA19A23 /* lstrlib.c */,
-				9DC8786D0C5770A7194EE04F /* ltable.c */,
-				25C6CBD352887ECBCE2B4754 /* ltable.h */,
-				BBF8453380C509CA0FA47070 /* ltablib.c */,
-				41BD80247CC78DFF1B9F2A07 /* ltm.c */,
-				958F75A044DEE8403FCB520B /* ltm.h */,
-				D288CC7D88A13A02ECBCF1F6 /* lua.h */,
-				090E22A0C7A49449A3255992 /* lua.hpp */,
-				49140F2951C58580D4974A04 /* luaconf.h */,
-				757CC67105CFAF171C5C17E9 /* lualib.h */,
-				EF150D890DEE62A032FF0632 /* lundump.c */,
-				0B2467F30FF543896DA26CC0 /* lundump.h */,
-				59C9BAE01889A59F1CBE4C79 /* lvm.c */,
-				503C504E7DD90E02527B1E10 /* lvm.h */,
-				A899BE115AE23A51B3AE5B41 /* lzio.c */,
-				E847F3058C7EEF7246741390 /* lzio.h */,
-				A2557B592A4C0ED38F0F66B9 /* Support Files */,
+				E15F80499DB47E55E321EB65 /* Pods-mongo-c-driver.xcconfig */,
+				6E51BB6BBC1355816D9EFE91 /* Pods-mongo-c-driver-Private.xcconfig */,
+				3D2E169053A7673E3C8A9A32 /* Pods-mongo-c-driver-dummy.m */,
+				0B26F336AD353FE256CE6368 /* Pods-mongo-c-driver-prefix.pch */,
 			);
-			path = lua;
+			name = "Support Files";
+			path = "../Target Support Files/Pods-mongo-c-driver";
 			sourceTree = "<group>";
 		};
-		39CDDB74D10473CDE19C44E3 = {
+		288E3D43493E34E4482038BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2773E9F2C3A9EC5F5237E85F /* Podfile */,
-				4321A811B7BB75119E2DE99D /* Frameworks */,
-				D690D1B1AE01B595BAEDC296 /* Pods */,
-				01F762D9434C9EB1329AFA9B /* Products */,
-				9EBECD5663F7EE13B02D7FBD /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		4321A811B7BB75119E2DE99D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5461AEDE43818E8ADD0170FA /* iOS */,
+				B8F4B34CACB19D2A5F4D9481 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		47EA96F027F24FD46E456D08 /* common */ = {
+		2A3A4BF74803295D02077068 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6022B4754C54667E248513BB /* FMDB.h */,
-				3E636E29BD6899228F665EAD /* FMDatabase.h */,
-				9FE019F1E4C42E5F150EF757 /* FMDatabase.m */,
-				86ED7D3278E359CB92D5F432 /* FMDatabaseAdditions.h */,
-				7B92B35E6B06CB6DCF8CF716 /* FMDatabaseAdditions.m */,
-				37D409C54BB2CA56716FC513 /* FMDatabasePool.h */,
-				A4D0D3AB684246F1AE49EB50 /* FMDatabasePool.m */,
-				24D182059565E5AB87A1F816 /* FMDatabaseQueue.h */,
-				D0C76C53204BDD6651EED0B8 /* FMDatabaseQueue.m */,
-				0E6570EE37915794F5EDC6E5 /* FMResultSet.h */,
-				2878FDCC4E78B0F5FD5BAF78 /* FMResultSet.m */,
+				509CEF87ED5383B8C9974519 /* libPods.a */,
+				40C1BC7C812DA9D17CA7BD1B /* libPods-FMDB.a */,
+				1805C887C4C4364EB4F57430 /* libPods-ObjCMongoDB.a */,
+				829866F3D76BA6097FB6499F /* libPods-lua.a */,
+				DD638A5C356150D46443F76C /* libPods-mongo-c-driver.a */,
 			);
-			name = common;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		5461AEDE43818E8ADD0170FA /* iOS */ = {
+		3E534517798653FC2227723E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				56AA59A8405BD979CE181EBA /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		9EBECD5663F7EE13B02D7FBD /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A0FD975264AA60344B3B5FB6 /* Pods */,
+				E194227944F8C020D3D67E13 /* Pods */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A0FD975264AA60344B3B5FB6 /* Pods */ = {
+		492E45DC1B0A6BCB3702888F /* lua */ = {
 			isa = PBXGroup;
 			children = (
-				A33F17F6F2B9C0AE614FC9E1 /* Pods-acknowledgements.markdown */,
-				DA4A450C4D865D2546D8944E /* Pods-acknowledgements.plist */,
-				743A286B05D7808E241FA41F /* Pods-dummy.m */,
-				F0F4295127B2EB79300E6E49 /* Pods-environment.h */,
-				59DCACF2081AD1E85DDD34AB /* Pods-resources.sh */,
-				3BC6C17B1A85DCB51C9DF68B /* Pods.debug.xcconfig */,
-				EB21E40ACD3F647C5260AE9A /* Pods.release.xcconfig */,
+				3D2DBAD7EAB0957B5BB40D27 /* lapi.c */,
+				E356350CC0535CEE62485DE5 /* lapi.h */,
+				2A11A377631684C1EB9850C3 /* lauxlib.c */,
+				436CB244650BB57102D14676 /* lauxlib.h */,
+				6E6D5081BC28E4CDE7EA0EEF /* lbaselib.c */,
+				AF2FD926EE6FF726CDBA4B7E /* lbitlib.c */,
+				0F0FA99E51BA4F2C32EF8446 /* lcode.c */,
+				88FF5AC45367FEAA34F1E2A7 /* lcode.h */,
+				E5DEFBB2D8C378AF7145F542 /* lcorolib.c */,
+				943B2E73DE5B576DEB3DA260 /* lctype.c */,
+				CD758A89A995A2726475E918 /* lctype.h */,
+				C005999B86D37ED5010FF08D /* ldblib.c */,
+				299C30D071597F06B3CF8565 /* ldebug.c */,
+				075CD6CE2278462014FBC1C4 /* ldebug.h */,
+				84D11A8221E450602DCB631C /* ldo.c */,
+				B4DC6ED7F720BF7C2F4ADA31 /* ldo.h */,
+				335DD1DF0A1B17136ED3E218 /* ldump.c */,
+				8E3E1A62900835355684CC44 /* lfunc.c */,
+				B13B8E7B187C5261D5BDBB67 /* lfunc.h */,
+				CFD9E8F1A92D37A1F364400B /* lgc.c */,
+				8A53BABB97A8CBCF52E36E3D /* lgc.h */,
+				7D3B71132218312EB134DC0B /* linit.c */,
+				0393DBE52396392EBB6600B0 /* liolib.c */,
+				A5535D71F662A2FEDD6CE80B /* llex.c */,
+				912AA543CE95991F899AF15C /* llex.h */,
+				BB62FC270EECF2C8243D4619 /* llimits.h */,
+				CBD99CDD37293B6FAFBA44D1 /* lmathlib.c */,
+				BC7CCF555ABB111D0F499741 /* lmem.c */,
+				0AB7851287B290E1495A49D5 /* lmem.h */,
+				03D7B810A5DC24774A8CF18F /* loadlib.c */,
+				13AE08EE7EA1C7ACAA1D98B4 /* lobject.c */,
+				7CF16BBEAFDE4937BA5B3EEB /* lobject.h */,
+				8B2F263836139AA063369DFD /* lopcodes.c */,
+				359EFDA9ADB19C7F97E37F6A /* lopcodes.h */,
+				9CDAE82721DE5DD7C84F1789 /* loslib.c */,
+				8B98498E73608B03A2C5CD96 /* lparser.c */,
+				A3F8D3315BA869DFA5CBF5A7 /* lparser.h */,
+				8AE3A148C622FB632F072D47 /* lstate.c */,
+				9C092806D0FE12E9B2D449C0 /* lstate.h */,
+				8E8596E019471DFDC3C8578F /* lstring.c */,
+				F961ABA85C970C0AA8717B12 /* lstring.h */,
+				4C744A7B04FAD2FB18B9DC77 /* lstrlib.c */,
+				F957CD7ADBE87A082BEEFE98 /* ltable.c */,
+				0781D0E1AF0E00892E2B591F /* ltable.h */,
+				EC4675AAC3D5E95598EFE79D /* ltablib.c */,
+				4BE40610C133E9C25A2040CE /* ltm.c */,
+				BDAABC565DA951599046C793 /* ltm.h */,
+				1C62DCC2BC83B99623383667 /* lua.h */,
+				133072124018E32FA8CE3E01 /* lua.hpp */,
+				30724F83C200176B6C103AFA /* luaconf.h */,
+				3BA73A592D88157FD84164EB /* lualib.h */,
+				1F2BFC97F61903D6FA3F08D9 /* lundump.c */,
+				FBBDB040E9E3D0DB474BA6AB /* lundump.h */,
+				7CF8223BC0651353ADC571E1 /* lvm.c */,
+				0F209928DB0ED6F197D9EF69 /* lvm.h */,
+				A2EB522B81B59A0059D80014 /* lzio.c */,
+				8F54ECE1E88BE4289025D033 /* lzio.h */,
+				768184EAF84AF8D4D2FF761F /* Support Files */,
 			);
-			name = Pods;
-			path = "Target Support Files/Pods";
+			path = lua;
 			sourceTree = "<group>";
 		};
-		A2557B592A4C0ED38F0F66B9 /* Support Files */ = {
+		768184EAF84AF8D4D2FF761F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5B305B0C8476C98294195738 /* Pods-lua.xcconfig */,
-				2F709CA90C58A3BD121DC6D6 /* Pods-lua-Private.xcconfig */,
-				4BCF108117C3D29ED60D6062 /* Pods-lua-dummy.m */,
-				5CC7153F48145783AF067B80 /* Pods-lua-prefix.pch */,
+				74B329D36142BED092388ACD /* Pods-lua.xcconfig */,
+				C47B249F41D7504B9B8338A0 /* Pods-lua-Private.xcconfig */,
+				C56EC19A15655BBE34D3E740 /* Pods-lua-dummy.m */,
+				CF555E14C2D5A5292E270B50 /* Pods-lua-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-lua";
 			sourceTree = "<group>";
 		};
-		AB60D96FDAAA6B844F0624CD /* Support Files */ = {
+		78C0F322FA7829B0CFAC5E71 /* common */ = {
 			isa = PBXGroup;
 			children = (
-				7C5614861DD8BEF5D05119C3 /* Pods-FMDB.xcconfig */,
-				258059B254FDE49E1746AE77 /* Pods-FMDB-Private.xcconfig */,
-				DFB0800A4EBA3ACE40F76E99 /* Pods-FMDB-dummy.m */,
-				12376ABBD7DE157277B19296 /* Pods-FMDB-prefix.pch */,
+				44A53C37D251AFE0925EEEAE /* FMDB.h */,
+				0FF73555FCAD0E03E1243534 /* FMDatabase.h */,
+				0CCAF21CE007E4121C899314 /* FMDatabase.m */,
+				AEF83F6072E3D473A7D62B16 /* FMDatabaseAdditions.h */,
+				064D042D0D8C9B7F67357AF1 /* FMDatabaseAdditions.m */,
+				0BB515D8A08F524F46842D33 /* FMDatabasePool.h */,
+				C13F097677D9787EEE05D1BE /* FMDatabasePool.m */,
+				737317BE5390A9FB02AD8AA0 /* FMDatabaseQueue.h */,
+				5AB2E628785346EE67D2349D /* FMDatabaseQueue.m */,
+				0BAB553640F6FB2D091D9713 /* FMResultSet.h */,
+				0631E1FB2003D68D77F85733 /* FMResultSet.m */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		797FD5D71A901641860DC718 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CD68B03910B8ADE852A71AF /* CouchbaseLite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84B1B56CD39E85E737820628 /* ObjCMongoDB */ = {
+			isa = PBXGroup;
+			children = (
+				C5244A1BCA903A51C51F4126 /* BSON */,
+				ADE9EC89E1DB82678364049C /* Mongo */,
+				8D9DA54FA91B4FBE1EBB947A /* OrderedDictionary */,
+				E15AB7848FA389628B36C294 /* Support Files */,
+			);
+			path = ObjCMongoDB;
+			sourceTree = "<group>";
+		};
+		8D9DA54FA91B4FBE1EBB947A /* OrderedDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				8F8364297C8131D0FE35CC6D /* OrderedDictionary.h */,
+				98458350D60D8881FA498E81 /* OrderedDictionary.m */,
+			);
+			name = OrderedDictionary;
+			sourceTree = "<group>";
+		};
+		A591D15076097CF92A23F8D8 = {
+			isa = PBXGroup;
+			children = (
+				621D710BF13C951363057E30 /* Podfile */,
+				288E3D43493E34E4482038BB /* Frameworks */,
+				03376EA43EB441CE887B2D38 /* Pods */,
+				2A3A4BF74803295D02077068 /* Products */,
+				3E534517798653FC2227723E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ADE9EC89E1DB82678364049C /* Mongo */ = {
+			isa = PBXGroup;
+			children = (
+				B9DC078650248F669BDFC872 /* MongoConnection.h */,
+				0BB44F52F98FA87F29B4A300 /* MongoConnection.m */,
+				EBABFAB365B4691A6BBFDF22 /* MongoConnection+Diagnostics.h */,
+				D2CB9CC7FE8012AF0CFBCAAD /* MongoConnection+Diagnostics.m */,
+				31924EBDC529E1A9A8B2A986 /* MongoCursor.h */,
+				CF781EEA9350B7B577190F19 /* MongoCursor.m */,
+				722C0A2D683F4A12936E4F49 /* MongoDBCollection.h */,
+				F539D9243BCBFF1F30EE9AF4 /* MongoDBCollection.m */,
+				5BA5CFE560F78D26B4851788 /* MongoFindRequest.h */,
+				D3F7698AACF61C7C5CA66D14 /* MongoFindRequest.m */,
+				7E362245418E10AA96982F4F /* MongoKeyedPredicate.h */,
+				05A9410AB5CCB1EFE362F758 /* MongoKeyedPredicate.m */,
+				17DAB0640B0DC6BA876B7FD4 /* MongoPredicate.h */,
+				818B7E00AD2D4B588893FDEC /* MongoPredicate.m */,
+				93E17D9C54E84C698BDB2106 /* MongoTypes.h */,
+				8D13327F195CF7A2D468060C /* MongoTypes.m */,
+				B1BD67BD52B1C359A7677DC4 /* MongoUpdateRequest.h */,
+				89ED7F4E663E5ADFB1DD6592 /* MongoUpdateRequest.m */,
+				34E8AD93ACC6FF189EF5FFC5 /* MongoWriteConcern.h */,
+				88A9D58B0A47DAA28DE5066F /* MongoWriteConcern.m */,
+				171BB226E78FC17A4778A801 /* Mongo_Helper.h */,
+				49FA85AE2356EAB3DECEB515 /* Mongo_Helper.m */,
+				DEAF3B3E1130051F44210CEA /* Mongo_PrivateInterfaces.h */,
+				0F5B55D6D1F34B89AE5A9C44 /* NSArray+MongoAdditions.h */,
+				6E981BA74A963AC8AF490E01 /* NSArray+MongoAdditions.m */,
+				C80405D00B5161895D014DDF /* ObjCMongoDB.h */,
+			);
+			name = Mongo;
+			sourceTree = "<group>";
+		};
+		AE5B08F5CA150121F820874C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				797FD5D71A901641860DC718 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B8F4B34CACB19D2A5F4D9481 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7327DF0F3FDD9DA4FED75D55 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5244A1BCA903A51C51F4126 /* BSON */ = {
+			isa = PBXGroup;
+			children = (
+				59647F337523A0F8F79D0F97 /* BSONCoding.h */,
+				B367D7C6305C3C77F0182F5B /* BSONDecoder.h */,
+				ABB063AFA92701388CA57CFC /* BSONDecoder.m */,
+				D8B66307C8108A0807191FAD /* BSONDocument.h */,
+				B474004818027B0C1FF0A6FA /* BSONDocument.m */,
+				DD10AF69FE1A72B85AC6C8E9 /* BSONEncoder.h */,
+				E9218CDADCB01FF1E53EC952 /* BSONEncoder.m */,
+				5EEF0B1EDF88D084EC8C6E82 /* BSONIterator.h */,
+				88EA6D3293BCF23CDE477AC2 /* BSONIterator.m */,
+				4BC58CFBB92965E734FC9593 /* BSONTypes.h */,
+				538EC118319FE0E5A4447986 /* BSONTypes.m */,
+				117395B383059AFA211C7AED /* BSON_Helper.h */,
+				C4F1289FBC5E4E8CD4BAF74E /* BSON_Helper.m */,
+				0FA234DB5791C5C13248830B /* BSON_PrivateInterfaces.h */,
+				7F2931C00C6AC358D9A0B2EE /* NSData+BSONAdditions.h */,
+				C0FA116605EFDFD3B41260EA /* NSData+BSONAdditions.m */,
+				4BC7B1617723C1423BF6960D /* NSDictionary+BSONAdditions.h */,
+				345C8C2253FD978337C51A29 /* NSDictionary+BSONAdditions.m */,
+				9B6BD86C843C2F96CCA39C61 /* NSManagedObject+BSONCoding.h */,
+				5B39F895CDD812F23066D2E0 /* NSManagedObject+BSONCoding.m */,
+				D6F06E7961E6C6780523356F /* NSString+BSONAdditions.h */,
+				90552BC50BE7651AD774FBC3 /* NSString+BSONAdditions.m */,
+				7B9AF5D7D93993CA912F0D92 /* ObjCBSON.h */,
+				D4A0DD1DA81AA3347F30FA0C /* ObjCBSON.m */,
+			);
+			name = BSON;
+			sourceTree = "<group>";
+		};
+		D58E3D2F4B3AA5ACA6688DCA /* mongo-c-driver */ = {
+			isa = PBXGroup;
+			children = (
+				9F837C20A064A71B162BF564 /* bcon.c */,
+				007474AC345CAD3B6A83D00B /* bcon.h */,
+				B3686C4FD4461A4B26D3F648 /* bson.c */,
+				194DC332F42ABF6DB0FA8B84 /* bson.h */,
+				D24A6DF63C7F928823C38386 /* encoding.c */,
+				EEFD2345A475FE2C9C8E9459 /* encoding.h */,
+				BFF1ED46B0DE55C5FE76D800 /* env.c */,
+				EB623A458FB044C48BE02C73 /* env.h */,
+				BAF6E62619AF6698B999EB7D /* gridfs.c */,
+				393071BD3E003F365CF10E0E /* gridfs.h */,
+				F39890B8AD2E32C2A0E65423 /* md5.c */,
+				141EE5520388BB8AB7D0D443 /* md5.h */,
+				F47064422AE07F2C8BEF28D1 /* mongo.c */,
+				FD868847152B18EBCA70470C /* mongo.h */,
+				4BDABC785A28ED11F72E7F19 /* numbers.c */,
+				1B5BD31DF3952D466E28B11D /* Support Files */,
+			);
+			path = "mongo-c-driver";
+			sourceTree = "<group>";
+		};
+		E15AB7848FA389628B36C294 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4D9E2B5FC773D5D7AFEC6CF /* Pods-ObjCMongoDB.xcconfig */,
+				8F22681F76EC11D415303940 /* Pods-ObjCMongoDB-Private.xcconfig */,
+				4E25EA7DF79A5423282E8206 /* Pods-ObjCMongoDB-dummy.m */,
+				178DFBFA1A0502D8E7512DCB /* Pods-ObjCMongoDB-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ObjCMongoDB";
+			sourceTree = "<group>";
+		};
+		E194227944F8C020D3D67E13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CDEFFFA8E778D41DE2E838C /* Pods-acknowledgements.markdown */,
+				4B60B53413AC3B4E812CCC94 /* Pods-acknowledgements.plist */,
+				AE8ADB71C329D611B4609BA1 /* Pods-dummy.m */,
+				49F5EE97160208B50D588FB3 /* Pods-environment.h */,
+				074C69BA29876F20DB267F9A /* Pods-resources.sh */,
+				28DF28D24BB2928363216182 /* Pods.debug.xcconfig */,
+				F75A65D58A227E1517D66CBE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		E2180F30AB87E450E85CC5C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B975864CE941C7E1279D8BBF /* Pods-FMDB.xcconfig */,
+				2779BEA5852D3EF76C554643 /* Pods-FMDB-Private.xcconfig */,
+				EA2252C84296566E8B8AD40B /* Pods-FMDB-dummy.m */,
+				031E020CCF13BD2D7DA56A8E /* Pods-FMDB-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-FMDB";
 			sourceTree = "<group>";
 		};
-		D690D1B1AE01B595BAEDC296 /* Pods */ = {
+		F2FABC84F06E31041FBCF77F /* couchbase-lite-ios */ = {
 			isa = PBXGroup;
 			children = (
-				0BEECB87722D0FA103268FBA /* FMDB */,
-				2BA58A111313E23BE014B84F /* lua */,
+				AE5B08F5CA150121F820874C /* Core */,
 			);
-			name = Pods;
+			path = "couchbase-lite-ios";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		94518075B8F0340F8F636530 /* Headers */ = {
+		10FF07D5D3AD58D9C766D192 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				014857606919B0335A53B733 /* FMDB.h in Headers */,
-				AB6DBC18AA4CFC04023B2BF6 /* FMDatabase.h in Headers */,
-				2B6B3EA83C0337C3CA500C59 /* FMDatabaseAdditions.h in Headers */,
-				EAAD33D97D0A02A16CF60956 /* FMDatabasePool.h in Headers */,
-				B7FB7A87453B66BCBC931466 /* FMDatabaseQueue.h in Headers */,
-				9AA3874A215A958307E94611 /* FMResultSet.h in Headers */,
+				2AC8B50DAFDBC94440C8B207 /* BSONCoding.h in Headers */,
+				B29858922233E02B0B3560F7 /* BSONDecoder.h in Headers */,
+				DA802B544E9381A6F1497CB7 /* BSONDocument.h in Headers */,
+				55904329BE09D8EEF03CCA58 /* BSONEncoder.h in Headers */,
+				E4629CAF5146124B9F431CE6 /* BSONIterator.h in Headers */,
+				3339042232A0717DFD966BBA /* BSONTypes.h in Headers */,
+				DFDE1B5E8CC0D96F3FE92F8D /* BSON_Helper.h in Headers */,
+				03A34EC8B10BC81344F23129 /* BSON_PrivateInterfaces.h in Headers */,
+				50878FC3328F7EE0EF005DC3 /* MongoConnection+Diagnostics.h in Headers */,
+				0E7C1264F0D4D3247D94ADAD /* MongoConnection.h in Headers */,
+				6D93F32476CE4993871DBB42 /* MongoCursor.h in Headers */,
+				B5E9A6088E70D43EF9D9856A /* MongoDBCollection.h in Headers */,
+				F24103DEA2CB363C52C1388E /* MongoFindRequest.h in Headers */,
+				E4C298E0AC74EC60751407E2 /* MongoKeyedPredicate.h in Headers */,
+				729C445E8C526B1A0953997F /* MongoPredicate.h in Headers */,
+				D2FB08E1AA4B260D7F9F31F7 /* MongoTypes.h in Headers */,
+				B9195556B1137075831CC2B3 /* MongoUpdateRequest.h in Headers */,
+				F4D247A4DF07AF1E4C66BB17 /* MongoWriteConcern.h in Headers */,
+				6D54CB000DF9F701E5997975 /* Mongo_Helper.h in Headers */,
+				F47DC904497FE340E9B13142 /* Mongo_PrivateInterfaces.h in Headers */,
+				4ECE7523C54D62AFDCFDDD22 /* NSArray+MongoAdditions.h in Headers */,
+				079088B8097286D5BE0E5579 /* NSData+BSONAdditions.h in Headers */,
+				949E1B755F02DD0A1B6C6A72 /* NSDictionary+BSONAdditions.h in Headers */,
+				E73A5C9522E274AC63320AE6 /* NSManagedObject+BSONCoding.h in Headers */,
+				A89FEC3810FB4B32819AC587 /* NSString+BSONAdditions.h in Headers */,
+				E9224F0C1B813C1C7AF9B6D9 /* ObjCBSON.h in Headers */,
+				3E272E5178346B7BD7DC373B /* ObjCMongoDB.h in Headers */,
+				FF102E08639E44133D790145 /* OrderedDictionary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E65EB7B7CA352A41E2214A72 /* Headers */ = {
+		484DE72E93AB27055F0C3D19 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				706BAEBFAD7FDB1122059F35 /* lapi.h in Headers */,
-				E6C7210F00F50ACB9339E225 /* lauxlib.h in Headers */,
-				25360A1DC7327DFA9E6FC039 /* lcode.h in Headers */,
-				82642F84CAE163B0C556857C /* lctype.h in Headers */,
-				B5ED4E4DD2FA024A7C0E86A0 /* ldebug.h in Headers */,
-				F23A823EB1A339485CB64449 /* ldo.h in Headers */,
-				0ACE41C26A192E1A9300639F /* lfunc.h in Headers */,
-				D44ACCA6C5800CF43E887CDD /* lgc.h in Headers */,
-				6CA9A13331913728260164DF /* llex.h in Headers */,
-				E63E47B6EFC261343926E04A /* llimits.h in Headers */,
-				0D48CE4B2514A79B5F9AC689 /* lmem.h in Headers */,
-				02227A1E0C4D4A395DF0A1EF /* lobject.h in Headers */,
-				33E1A561893FFB4E672160F0 /* lopcodes.h in Headers */,
-				32C907B71B86770C5C81BADD /* lparser.h in Headers */,
-				988CE99B97D43CD974D4A07B /* lstate.h in Headers */,
-				51669AFD519EC30CBE6F5DAF /* lstring.h in Headers */,
-				82AB501DAF77EDF998525CD2 /* ltable.h in Headers */,
-				C2522D5CF087E4AFAC662C7E /* ltm.h in Headers */,
-				1C95309B25B9045EDCBE587B /* lua.h in Headers */,
-				D6798B597EA6DF2C0E4540B5 /* lua.hpp in Headers */,
-				2ECC5E050F23F0C862E56FEC /* luaconf.h in Headers */,
-				544CB9E4494A2B4A850C8EDF /* lualib.h in Headers */,
-				A9411FC6290B8D734B88D70D /* lundump.h in Headers */,
-				F94EA2C07118587197266B04 /* lvm.h in Headers */,
-				6AF2D5CBB40D2BF5DF7C486C /* lzio.h in Headers */,
+				479E6E5F5E1782BA2399F945 /* bcon.h in Headers */,
+				FD117C2586B93C990A9331BD /* bson.h in Headers */,
+				5841083A0153F7253A9BAE9F /* encoding.h in Headers */,
+				69E135C08FE6C29BCD0FB8AF /* env.h in Headers */,
+				05A1D04289399FFC45FDC05B /* gridfs.h in Headers */,
+				E75BC69921A38385ABFCA222 /* md5.h in Headers */,
+				63A75C2C67390B41E4A8FE64 /* mongo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F269CC1EE0E3EEC91616B34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24BFF13B4203B03EA569304 /* FMDB.h in Headers */,
+				B4A4A4BEB41069601568663F /* FMDatabase.h in Headers */,
+				5EC670E7AC414867405006FB /* FMDatabaseAdditions.h in Headers */,
+				03B897B6CF46583484A6C792 /* FMDatabasePool.h in Headers */,
+				8E7AC4DCF024140A189B2742 /* FMDatabaseQueue.h in Headers */,
+				06DE98455E68348B1773FD4C /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725296D4CCD8911FD526591A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B32353CAC86CC2F90016489 /* lapi.h in Headers */,
+				0CFCCD02CECDCE07162E05C0 /* lauxlib.h in Headers */,
+				C3CB4655498BD3339FBD5A3B /* lcode.h in Headers */,
+				A6A9D45AB57C4D3A6E745D2D /* lctype.h in Headers */,
+				E1EC9C46D3FF913FD1B66484 /* ldebug.h in Headers */,
+				008C3A07ECC5AE024B974F0F /* ldo.h in Headers */,
+				C235E938C14512A38D616415 /* lfunc.h in Headers */,
+				106F17EB89CAAFBFBDEC4AEA /* lgc.h in Headers */,
+				B9E13BA9605C53237A8CC95C /* llex.h in Headers */,
+				871FC8A373B9BED4C3F9F13F /* llimits.h in Headers */,
+				670B45108AA654FE3090788D /* lmem.h in Headers */,
+				3E6843D661FFBA8AFA189766 /* lobject.h in Headers */,
+				0133208715FBFBFA97E3B516 /* lopcodes.h in Headers */,
+				89068DB873DF5EA0496A9C6C /* lparser.h in Headers */,
+				AADAC84E1B75BC7A81BFD185 /* lstate.h in Headers */,
+				E76D4FDAD0FEBE0FC6E75AD2 /* lstring.h in Headers */,
+				0CAC65A2F220478673A4BAD3 /* ltable.h in Headers */,
+				BCD9103C24DD7E722DFE637C /* ltm.h in Headers */,
+				FB0CB8393A29792F17CF5915 /* lua.h in Headers */,
+				9FBB10E1C979AC3E6DE0F0AE /* lua.hpp in Headers */,
+				9B92DF5C99F5FD7ED0336068 /* luaconf.h in Headers */,
+				6CD6D57E85D32A64A82DF213 /* lualib.h in Headers */,
+				A1D3EE60AC3142A18F004AC5 /* lundump.h in Headers */,
+				DD9302C7FA8D93827A5DB539 /* lvm.h in Headers */,
+				AAE28C73423011248446AB56 /* lzio.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		219AD6D06E214B446A3E6894 /* Pods */ = {
+		120A407BFA01D76AC97B5E8B /* Pods-FMDB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2F2C78A4656F8DCF7665013 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = DFAD0FE2A9D628AECE84F4B3 /* Build configuration list for PBXNativeTarget "Pods-FMDB" */;
 			buildPhases = (
-				B396A061929E8BB407E872F4 /* Sources */,
-				ADE04BABD746A7EAD6BD9CA0 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0DED0AB2AE430A9F22B83927 /* PBXTargetDependency */,
-				9A4F238983A0B19F9031A4C2 /* PBXTargetDependency */,
-			);
-			name = Pods;
-			productName = Pods;
-			productReference = F872308690FAF58239AA1677 /* libPods.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		60F75F2D0526E9EC5A58C188 /* Pods-lua */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3F5EC5AEC2497DEDCFA59A77 /* Build configuration list for PBXNativeTarget "Pods-lua" */;
-			buildPhases = (
-				F09086777DE6BBED9D91852F /* Sources */,
-				9B55ACCD2D73B0DC4C22FB21 /* Frameworks */,
-				E65EB7B7CA352A41E2214A72 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-lua";
-			productName = "Pods-lua";
-			productReference = 2804581808DF766E33FC3B0A /* libPods-lua.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		B9B2230EF82FCC937CCEC7E7 /* Pods-FMDB */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ADD6AED091CDE56B0D8C9D26 /* Build configuration list for PBXNativeTarget "Pods-FMDB" */;
-			buildPhases = (
-				F31DBDD58BDDD1CD83EF3EC2 /* Sources */,
-				83AA5B8EA7F890190700C78D /* Frameworks */,
-				94518075B8F0340F8F636530 /* Headers */,
+				A660606DC946FE50C996D6FC /* Sources */,
+				D8594933CACBE0CA009775B2 /* Frameworks */,
+				5F269CC1EE0E3EEC91616B34 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -504,119 +864,259 @@
 			);
 			name = "Pods-FMDB";
 			productName = "Pods-FMDB";
-			productReference = 8D6740B14A077F064A90C28B /* libPods-FMDB.a */;
+			productReference = 40C1BC7C812DA9D17CA7BD1B /* libPods-FMDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2F39CC0682BDD58C60F2B6E9 /* Pods-ObjCMongoDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70BE868595A5D1470F0FF565 /* Build configuration list for PBXNativeTarget "Pods-ObjCMongoDB" */;
+			buildPhases = (
+				7C22D2760515EBF27DFD0148 /* Sources */,
+				DF4CFAA97F5AE804C8AF6887 /* Frameworks */,
+				10FF07D5D3AD58D9C766D192 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5864E81E5D892AE6D3BE09B5 /* PBXTargetDependency */,
+			);
+			name = "Pods-ObjCMongoDB";
+			productName = "Pods-ObjCMongoDB";
+			productReference = 1805C887C4C4364EB4F57430 /* libPods-ObjCMongoDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3DF206761225BE5B60CC4B77 /* Pods-lua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00AB26826CCF33C517729360 /* Build configuration list for PBXNativeTarget "Pods-lua" */;
+			buildPhases = (
+				54F1FEA5AF64513BE8E6F193 /* Sources */,
+				2EA04041E734680F13629CC3 /* Frameworks */,
+				725296D4CCD8911FD526591A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-lua";
+			productName = "Pods-lua";
+			productReference = 829866F3D76BA6097FB6499F /* libPods-lua.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6E7909566D080C271F995E52 /* Pods-mongo-c-driver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24B0D2F9C9EFF54896F4A95 /* Build configuration list for PBXNativeTarget "Pods-mongo-c-driver" */;
+			buildPhases = (
+				B5070418732C8BB5F8AD0639 /* Sources */,
+				C0FBFA2842FE254A3D324139 /* Frameworks */,
+				484DE72E93AB27055F0C3D19 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-mongo-c-driver";
+			productName = "Pods-mongo-c-driver";
+			productReference = DD638A5C356150D46443F76C /* libPods-mongo-c-driver.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9843B9852FA2532D777E97E7 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51C2948103E8FE06870A0CBB /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				6432FE060614FD05440CC199 /* Sources */,
+				FC5CD4FA0A8DE0021B1F8D79 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6971111F846D1675C0E9D82D /* PBXTargetDependency */,
+				37E7A379DA396725D740BE3B /* PBXTargetDependency */,
+				6C5F5835D09F321B2F6276FC /* PBXTargetDependency */,
+				622EBCC3EAD6937995063FF0 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 509CEF87ED5383B8C9974519 /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		05B42955370A31D7FFB0EA8C /* Project object */ = {
+		EAF3FB1810EF7E180BE26867 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = F8256370B84328B813161E80 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 95D8AD681D85A4645DF8C04D /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 39CDDB74D10473CDE19C44E3;
-			productRefGroup = 01F762D9434C9EB1329AFA9B /* Products */;
+			mainGroup = A591D15076097CF92A23F8D8;
+			productRefGroup = 2A3A4BF74803295D02077068 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				219AD6D06E214B446A3E6894 /* Pods */,
-				B9B2230EF82FCC937CCEC7E7 /* Pods-FMDB */,
-				60F75F2D0526E9EC5A58C188 /* Pods-lua */,
+				9843B9852FA2532D777E97E7 /* Pods */,
+				120A407BFA01D76AC97B5E8B /* Pods-FMDB */,
+				2F39CC0682BDD58C60F2B6E9 /* Pods-ObjCMongoDB */,
+				3DF206761225BE5B60CC4B77 /* Pods-lua */,
+				6E7909566D080C271F995E52 /* Pods-mongo-c-driver */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B396A061929E8BB407E872F4 /* Sources */ = {
+		54F1FEA5AF64513BE8E6F193 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2C0B06872255ABC68807F64 /* Pods-dummy.m in Sources */,
+				B9733E3A297107E6C98B0428 /* Pods-lua-dummy.m in Sources */,
+				6885F7B034A25B0E682E4F87 /* lapi.c in Sources */,
+				8F7E3D89AB1BDD829FF42CBE /* lauxlib.c in Sources */,
+				D024F1C288263B248C408450 /* lbaselib.c in Sources */,
+				C8C754F7FDF753707B5B44A8 /* lbitlib.c in Sources */,
+				71874257867849ED3B4EEB08 /* lcode.c in Sources */,
+				A237DBA8BACB36190F05773C /* lcorolib.c in Sources */,
+				281470876E06B62DABE1ADAA /* lctype.c in Sources */,
+				659166C920A07ABAE5EA0F94 /* ldblib.c in Sources */,
+				19B6BBC2AAB37FD82A9798AC /* ldebug.c in Sources */,
+				D48C7C1C2FE331B74C231445 /* ldo.c in Sources */,
+				90B14647BE38E0BB538740FC /* ldump.c in Sources */,
+				168CA146903E73E0B648171D /* lfunc.c in Sources */,
+				9AEB2B2D20F4C3C3AAB50E0A /* lgc.c in Sources */,
+				A90C367422674145DD7E3EF8 /* linit.c in Sources */,
+				609A31FD312C2A88545C4A56 /* liolib.c in Sources */,
+				834125B579856D49F2B43D12 /* llex.c in Sources */,
+				D244BA5D1EF8C8875D688CF0 /* lmathlib.c in Sources */,
+				9437B98BF11501290B36BE57 /* lmem.c in Sources */,
+				B4809E2C4E8ED6CD501FE44E /* loadlib.c in Sources */,
+				CFEED99CBAF890E954AC6201 /* lobject.c in Sources */,
+				43A13D99557BC8E279C9AA1A /* lopcodes.c in Sources */,
+				17F2BA425C50089FF9562FAC /* loslib.c in Sources */,
+				8B8834E7FF6096DBEA484B1E /* lparser.c in Sources */,
+				2DEFB773CA7C016C314DAEA1 /* lstate.c in Sources */,
+				81A13A81F32CA73E973C6426 /* lstring.c in Sources */,
+				D45BF50D0695FC9B0AC9619F /* lstrlib.c in Sources */,
+				00963FFF6C54393B23875AC9 /* ltable.c in Sources */,
+				66B8E0B4BB8592F2685C33ED /* ltablib.c in Sources */,
+				6D7AD29803CA2F00054F60FB /* ltm.c in Sources */,
+				7DD7824AD672C60A2E7A460A /* lundump.c in Sources */,
+				5D2470920C15EC6C9FADD266 /* lvm.c in Sources */,
+				49669F6BF308EB5562108AB5 /* lzio.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F09086777DE6BBED9D91852F /* Sources */ = {
+		6432FE060614FD05440CC199 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1086D8D91F7368ABEA176EB /* Pods-lua-dummy.m in Sources */,
-				AE6FBC5ED4A00F2B0462D5BE /* lapi.c in Sources */,
-				9229C860E1503DE4816B6907 /* lauxlib.c in Sources */,
-				C53CAB2560D21E665ECBF50F /* lbaselib.c in Sources */,
-				A69988C204CCD5B37D403624 /* lbitlib.c in Sources */,
-				0741699856C6059D3E135DE8 /* lcode.c in Sources */,
-				D65A5F516F34957FDB42AD24 /* lcorolib.c in Sources */,
-				9220914807A18410380BAE22 /* lctype.c in Sources */,
-				699097A6C654DA78E3DE9035 /* ldblib.c in Sources */,
-				FD2F389DBADB3923FAED40E2 /* ldebug.c in Sources */,
-				23C869642BF8AB21E6D776C3 /* ldo.c in Sources */,
-				FADA4070C8E4A855704529A4 /* ldump.c in Sources */,
-				5B6BB3CA4567C0CFA0878FE5 /* lfunc.c in Sources */,
-				C362C609BA3ED35B6B21E9A3 /* lgc.c in Sources */,
-				DEFE8DE201122084F969EA62 /* linit.c in Sources */,
-				B110EC6EFA466A88CD9DEEB4 /* liolib.c in Sources */,
-				B441CA5333654F96DFFBCFF1 /* llex.c in Sources */,
-				F34DEA6AC13EA3891FC27801 /* lmathlib.c in Sources */,
-				BF121832E7FE65E5A98ADEE2 /* lmem.c in Sources */,
-				44B4BF538168E16D1652EBF3 /* loadlib.c in Sources */,
-				46875CA342DCD001F6184950 /* lobject.c in Sources */,
-				B0F10498BE6A7936A4452089 /* lopcodes.c in Sources */,
-				8B61E53EDAB9F239A9E41B78 /* loslib.c in Sources */,
-				9D8F11BE59CCA75423C0EDF1 /* lparser.c in Sources */,
-				6808612565E459EC565B1483 /* lstate.c in Sources */,
-				AC963CF7AACF3892ABC17E7A /* lstring.c in Sources */,
-				7AADB731860E7B5293A0990D /* lstrlib.c in Sources */,
-				841D034F677BA5188D1148C2 /* ltable.c in Sources */,
-				9C232F8368CC022BAB252911 /* ltablib.c in Sources */,
-				64D0D835CA43C1A4919D017F /* ltm.c in Sources */,
-				DDD17B17DEF726A47C0DF4FC /* lundump.c in Sources */,
-				96A0CB3D00273FF5BF0523F0 /* lvm.c in Sources */,
-				38FFA1E23686161BEAB34466 /* lzio.c in Sources */,
+				C577DBAE1E7BD2E10E448FC8 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F31DBDD58BDDD1CD83EF3EC2 /* Sources */ = {
+		7C22D2760515EBF27DFD0148 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A7D9EAE51EA05A31B04A81C /* FMDatabase.m in Sources */,
-				962F79F35A845EB46F19B4D9 /* FMDatabaseAdditions.m in Sources */,
-				ACA5E4224100F3CB461FA678 /* FMDatabasePool.m in Sources */,
-				9F29FC1B93B7C5CEBB2BEDDC /* FMDatabaseQueue.m in Sources */,
-				68B06959EBFA57DB793AAD49 /* FMResultSet.m in Sources */,
-				A31EB5EDA0308122C0F629EB /* Pods-FMDB-dummy.m in Sources */,
+				FAE0926C735BAE2D63BF24DE /* BSONDecoder.m in Sources */,
+				F6279E04AA9DD27AED29771B /* BSONDocument.m in Sources */,
+				3016C56EFC25B835CAA893DE /* BSONEncoder.m in Sources */,
+				4CBE9F1C16B0B9DB2DA1B7B5 /* BSONIterator.m in Sources */,
+				5D93ED64648CB236A1B05BF0 /* BSONTypes.m in Sources */,
+				F6234791092D871B51CE0470 /* BSON_Helper.m in Sources */,
+				AE2A96959640A899D943135B /* MongoConnection+Diagnostics.m in Sources */,
+				CEFC26E2752CCB1948CE9661 /* MongoConnection.m in Sources */,
+				45AD76FA549DD3DB41EDD3F8 /* MongoCursor.m in Sources */,
+				D205DCAD873F75F6D623022E /* MongoDBCollection.m in Sources */,
+				D8D537881D4730B71466F24B /* MongoFindRequest.m in Sources */,
+				BD3A1719AAD7B85DD36705A8 /* MongoKeyedPredicate.m in Sources */,
+				DFF18CB501E2A95A42439779 /* MongoPredicate.m in Sources */,
+				F6D94108F99405DDF0483FAB /* MongoTypes.m in Sources */,
+				68AF2E458FFAFDD4DC35592E /* MongoUpdateRequest.m in Sources */,
+				0A6FBD62CFECA3821D15989F /* MongoWriteConcern.m in Sources */,
+				99DACF5614F230F2018BCDFC /* Mongo_Helper.m in Sources */,
+				A204DF6DAEC17981FF6B1EF8 /* NSArray+MongoAdditions.m in Sources */,
+				C224EC5CA8CC5A958334A221 /* NSData+BSONAdditions.m in Sources */,
+				1422646A2360E3D774B87B50 /* NSDictionary+BSONAdditions.m in Sources */,
+				ED729F842F2C22ACEE864C0E /* NSManagedObject+BSONCoding.m in Sources */,
+				8F0D264983E9C9DECBF8D0C2 /* NSString+BSONAdditions.m in Sources */,
+				CBB29A6D4E149D7C0A374FD1 /* ObjCBSON.m in Sources */,
+				EE0F2FD5849F30DCDD644C3F /* OrderedDictionary.m in Sources */,
+				4B40F991ED4EACBF042675A6 /* Pods-ObjCMongoDB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A660606DC946FE50C996D6FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8904F1329722904FC73B8297 /* FMDatabase.m in Sources */,
+				E1EA2104AD54ACD31D9031C8 /* FMDatabaseAdditions.m in Sources */,
+				D76D29F41BF47B93A56709D2 /* FMDatabasePool.m in Sources */,
+				B363CE2F87C7A08B5B80222A /* FMDatabaseQueue.m in Sources */,
+				416AA11FAFE56049B6691B61 /* FMResultSet.m in Sources */,
+				756F6339DA6499925A6B2C06 /* Pods-FMDB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5070418732C8BB5F8AD0639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382380A0A5093B8C21FF264C /* Pods-mongo-c-driver-dummy.m in Sources */,
+				B8EE08B59B3785E03AEA1264 /* bcon.c in Sources */,
+				733879003C25544A48569C88 /* bson.c in Sources */,
+				AE151510E6F4F1AC05EBEA04 /* encoding.c in Sources */,
+				4253941CF773724AD7E029A8 /* env.c in Sources */,
+				6687808D460C613C84621E50 /* gridfs.c in Sources */,
+				36AA657836703BE0EB029177 /* md5.c in Sources */,
+				5EE9454AFC8E44B60E9BCDCC /* mongo.c in Sources */,
+				FD5BB378525A793E7360E988 /* numbers.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0DED0AB2AE430A9F22B83927 /* PBXTargetDependency */ = {
+		37E7A379DA396725D740BE3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ObjCMongoDB";
+			target = 2F39CC0682BDD58C60F2B6E9 /* Pods-ObjCMongoDB */;
+			targetProxy = 3B11504E378A0B8DF79AD002 /* PBXContainerItemProxy */;
+		};
+		5864E81E5D892AE6D3BE09B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-mongo-c-driver";
+			target = 6E7909566D080C271F995E52 /* Pods-mongo-c-driver */;
+			targetProxy = B075BAB0E9081DBA351CDDBD /* PBXContainerItemProxy */;
+		};
+		622EBCC3EAD6937995063FF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-mongo-c-driver";
+			target = 6E7909566D080C271F995E52 /* Pods-mongo-c-driver */;
+			targetProxy = C0F54458FF75BB86E121461D /* PBXContainerItemProxy */;
+		};
+		6971111F846D1675C0E9D82D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FMDB";
-			target = B9B2230EF82FCC937CCEC7E7 /* Pods-FMDB */;
-			targetProxy = 55F1F87F8F63F77841280337 /* PBXContainerItemProxy */;
+			target = 120A407BFA01D76AC97B5E8B /* Pods-FMDB */;
+			targetProxy = 9D13072B21D0E00AF517699A /* PBXContainerItemProxy */;
 		};
-		9A4F238983A0B19F9031A4C2 /* PBXTargetDependency */ = {
+		6C5F5835D09F321B2F6276FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-lua";
-			target = 60F75F2D0526E9EC5A58C188 /* Pods-lua */;
-			targetProxy = E79DF74FF67A95A29B68F2BD /* PBXContainerItemProxy */;
+			target = 3DF206761225BE5B60CC4B77 /* Pods-lua */;
+			targetProxy = 9B15B861EAB14E35872AF56F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01ED06F94AEB2963EEEAF58C /* Release */ = {
+		01A681DA68460F7DC756383D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB21E40ACD3F647C5260AE9A /* Pods.release.xcconfig */;
+			baseConfigurationReference = F75A65D58A227E1517D66CBE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -630,43 +1130,25 @@
 			};
 			name = Release;
 		};
-		2030A0D1458E94B4CD186373 /* Release */ = {
+		31E42B63C170A67B7F70B608 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2779BEA5852D3EF76C554643 /* Pods-FMDB-Private.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FMDB/Pods-FMDB-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		26EF9EB8BF91E6299B8A6584 /* Debug */ = {
+		3A8F8D69F47CBDEDC236D950 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F709CA90C58A3BD121DC6D6 /* Pods-lua-Private.xcconfig */;
+			baseConfigurationReference = C47B249F41D7504B9B8338A0 /* Pods-lua-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-lua/Pods-lua-prefix.pch";
@@ -680,7 +1162,71 @@
 			};
 			name = Debug;
 		};
-		479456A44B7AE07973AE94A0 /* Debug */ = {
+		50E6E844DA74519301D1A69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F22681F76EC11D415303940 /* Pods-ObjCMongoDB-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ObjCMongoDB/Pods-ObjCMongoDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		647422C82BA3234C9256AD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2779BEA5852D3EF76C554643 /* Pods-FMDB-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FMDB/Pods-FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6A678409311911A2F3D5F287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28DF28D24BB2928363216182 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		856D4A43D63E84E76C3B64AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E51BB6BBC1355816D9EFE91 /* Pods-mongo-c-driver-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-mongo-c-driver/Pods-mongo-c-driver-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8C3076591D97F71101991ACE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -719,41 +1265,43 @@
 			};
 			name = Debug;
 		};
-		947B91C40C04C39283A55868 /* Debug */ = {
+		97ECBFDCE6F031FA9B4A416E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 258059B254FDE49E1746AE77 /* Pods-FMDB-Private.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-FMDB/Pods-FMDB-prefix.pch";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		9597C42A1250FA07E0C5377F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 258059B254FDE49E1746AE77 /* Pods-FMDB-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-FMDB/Pods-FMDB-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		B6D5C49C3C7B7B1C5FBDF634 /* Release */ = {
+		B57DB0ECD27EBFB7946D547E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F709CA90C58A3BD121DC6D6 /* Pods-lua-Private.xcconfig */;
+			baseConfigurationReference = C47B249F41D7504B9B8338A0 /* Pods-lua-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-lua/Pods-lua-prefix.pch";
@@ -767,16 +1315,32 @@
 			};
 			name = Release;
 		};
-		F19EDA63A6104482E2DB7592 /* Debug */ = {
+		BFCC2F2957E36C38C3C7AFF2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BC6C17B1A85DCB51C9DF68B /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 6E51BB6BBC1355816D9EFE91 /* Pods-mongo-c-driver-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-mongo-c-driver/Pods-mongo-c-driver-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CB877AC41EF5DCF4D9AD2532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F22681F76EC11D415303940 /* Pods-ObjCMongoDB-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ObjCMongoDB/Pods-ObjCMongoDB-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -786,43 +1350,61 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F5EC5AEC2497DEDCFA59A77 /* Build configuration list for PBXNativeTarget "Pods-lua" */ = {
+		00AB26826CCF33C517729360 /* Build configuration list for PBXNativeTarget "Pods-lua" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26EF9EB8BF91E6299B8A6584 /* Debug */,
-				B6D5C49C3C7B7B1C5FBDF634 /* Release */,
+				3A8F8D69F47CBDEDC236D950 /* Debug */,
+				B57DB0ECD27EBFB7946D547E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADD6AED091CDE56B0D8C9D26 /* Build configuration list for PBXNativeTarget "Pods-FMDB" */ = {
+		51C2948103E8FE06870A0CBB /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				947B91C40C04C39283A55868 /* Debug */,
-				9597C42A1250FA07E0C5377F /* Release */,
+				6A678409311911A2F3D5F287 /* Debug */,
+				01A681DA68460F7DC756383D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2F2C78A4656F8DCF7665013 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		70BE868595A5D1470F0FF565 /* Build configuration list for PBXNativeTarget "Pods-ObjCMongoDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F19EDA63A6104482E2DB7592 /* Debug */,
-				01ED06F94AEB2963EEEAF58C /* Release */,
+				CB877AC41EF5DCF4D9AD2532 /* Debug */,
+				50E6E844DA74519301D1A69F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8256370B84328B813161E80 /* Build configuration list for PBXProject "Pods" */ = {
+		95D8AD681D85A4645DF8C04D /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				479456A44B7AE07973AE94A0 /* Debug */,
-				2030A0D1458E94B4CD186373 /* Release */,
+				8C3076591D97F71101991ACE /* Debug */,
+				97ECBFDCE6F031FA9B4A416E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFAD0FE2A9D628AECE84F4B3 /* Build configuration list for PBXNativeTarget "Pods-FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E42B63C170A67B7F70B608 /* Debug */,
+				647422C82BA3234C9256AD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24B0D2F9C9EFF54896F4A95 /* Build configuration list for PBXNativeTarget "Pods-mongo-c-driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856D4A43D63E84E76C3B64AF /* Debug */,
+				BFCC2F2957E36C38C3C7AFF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 05B42955370A31D7FFB0EA8C /* Project object */;
+	rootObject = EAF3FB1810EF7E180BE26867 /* Project object */;
 }

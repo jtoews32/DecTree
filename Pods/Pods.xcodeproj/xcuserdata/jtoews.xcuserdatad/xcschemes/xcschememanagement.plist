@@ -9,7 +9,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-ObjCMongoDB.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-lua.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-mongo-c-driver.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>219AD6D06E214B446A3E6894</key>
+		<key>120A407BFA01D76AC97B5E8B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>60F75F2D0526E9EC5A58C188</key>
+		<key>2F39CC0682BDD58C60F2B6E9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B9B2230EF82FCC937CCEC7E7</key>
+		<key>3DF206761225BE5B60CC4B77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6E7909566D080C271F995E52</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9843B9852FA2532D777E97E7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,6 +1,7 @@
+FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/couchbase-lite-ios"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 LUA_USE_MACOSX=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/lua"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/FMDB" -isystem "${PODS_ROOT}/Headers/Public/lua"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-FMDB" -l"Pods-lua" -l"sqlite3"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/ObjCMongoDB" "${PODS_ROOT}/Headers/Public/couchbase-lite-ios" "${PODS_ROOT}/Headers/Public/lua" "${PODS_ROOT}/Headers/Public/mongo-c-driver"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/FMDB" -isystem "${PODS_ROOT}/Headers/Public/ObjCMongoDB" -isystem "${PODS_ROOT}/Headers/Public/couchbase-lite-ios" -isystem "${PODS_ROOT}/Headers/Public/lua" -isystem "${PODS_ROOT}/Headers/Public/mongo-c-driver"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-FMDB" -l"Pods-ObjCMongoDB" -l"Pods-lua" -l"Pods-mongo-c-driver" -l"sqlite3" -l"z" -framework "CFNetwork" -framework "CouchbaseLite" -framework "Security" -framework "SystemConfiguration"
 OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
 PODS_ROOT = ${SRCROOT}/Pods

@@ -24,70 +24,79 @@ class LuaManager {
         lua_settop(state, 0)
     }
     
+    deinit
+    {
+        lua_close(state)
+    }
     
-    func runCodeFromString(script: String) {
-        // Get state
+    
+    class func get () -> LuaManager {
+        return LuaManager()
+    }
+    
+    
+    func registerFunction( function:lua_CFunction, name:String ) {
         let L: COpaquePointer = self.state
+        
+        lua_pushcclosure(L, function_name, 0)
+        lua_setglobal(L, name)
+        
+    }
+    
+    /*
+    func registerFunction(function: lua_CFunction, name:String?) {
+        lua_pushcclosure(self.state, function, 0)
+        lua_setglobal(self.state, name! )
+    }
+    */
+    
+    
+    // Works
+    func runCodeFromString(script: String) -> EvalResult {
+        let L: COpaquePointer = self.state
+        
+        var results: [String] = []
+        
+        lua_settop(L, 0)
 
-       // var results: [String] = []
-        
-       // lua_settop(L, 0)
-        
-        
-        /*
-        
-        // compile
-        int error = luaL_loadstring(L, to_cString(code));
-        if (error) {
-        NSString* stackTrace = to_nsString(lua_tostring(L, -1));
-        [[INWAppDelegate get] exit:stackTrace];
-        return;
-        }
-        */
-        
-        
         var error = luaL_loadstring(L, script)
         if error != LUA_OK
         {
+           
             let msg = String(UTF8String: lua_tolstring(L, -1, nil))
             
+            
+           
             if let errmsg = msg
             {
-                // results.append(errmsg)
+                NSLog(errmsg);
             }
             
-            return; // (error, results)
-        }
-        
-        /*
-
-        // run
-        error = lua_pcall(L, 0, 0, 0);
-        if (error) {
-        NSString* stackTrace = to_nsString(lua_tostring(L, -1));
-        [[INWAppDelegate get] exit:stackTrace];
-        return;
-        }
+            
+            return (error, results)
         }
 
-        */
-        
         error = lua_pcallk(L, 0, LUA_MULTRET, 0, 0, nil)
         if error != LUA_OK
         {
             let msg = String(UTF8String: lua_tolstring(L, -1, nil))
             
+            
+            
             if let errmsg = msg
             {
-              //  results.append(errmsg)
+                NSLog(errmsg);
             }
             
-            return; // (error, results)
+            return (error, results)
         }
+        
+        
+        return (LUA_OK, results)
     }
     
         
-    
+    // Isn't necessary .. Probably does exactly what the script before it does
     func runCodeFromStringWithResult(script: String) -> EvalResult
     {
         let L: COpaquePointer = self.state
@@ -147,65 +156,88 @@ class LuaManager {
     }
     
     
-    func runCodeFromFileWithPath(path: String) {
+    func runCodeFromFileWithPath(path: String) -> EvalResult {
         let L: COpaquePointer = self.state
         
-        var error = luaL_loadfilex(L,path, nil)
+        var results: [String] = []
+        
+        lua_settop(L, 0)
+        
+        
+        let error = luaL_loadfilex(L,path, nil)
         
         if error != LUA_OK {
-           // NSString* stackTrace = to_nsString(lua_tostring(L, -1));
-           // [[INWAppDelegate get] exit:stackTrace];
-            return
+            
+            let msg = String(UTF8String: lua_tolstring(L, -1, nil))
+            
+            if let errmsg = msg
+            {
+                NSLog(errmsg)
+            }
+            
+            return (error, results)
         }
         
-        // run
-        error = lua_pcallk(L, 0, LUA_MULTRET, 0, 0, nil)
-        if error != LUA_OK {
-           // NSString* stackTrace = to_nsString(lua_tostring(L, -1));
-           // [[INWAppDelegate get] exit:stackTrace];
-            return
+        return (LUA_OK, results)
+    }
+
+
+    func evaluate(script: String) -> EvalResult
+    {
+        var results: [String] = []
+        
+        lua_settop(L, 0)
+        
+        
+        var err = luaL_loadstring(L, script)
+        if err != LUA_OK
+        {
+            let msg = String(UTF8String: lua_tolstring(L, -1, nil))
+            
+            if let errmsg = msg
+            {
+                results.append(errmsg)
+            }
+            
+            return (err, results)
         }
- 
-    
-    
         
         
+        err = lua_pcallk(L, 0, LUA_MULTRET, 0, 0, nil)
+        if err != LUA_OK
+        {
+            let msg = String(UTF8String: lua_tolstring(L, -1, nil))
+            
+            if let errmsg = msg
+            {
+                results.append(errmsg)
+            }
+            
+            return (err, results)
+        }
+        
+        
+        let nresults = lua_gettop(L)
+        if nresults != 0
+        {
+            for var i = nresults; i > 0; i--
+            {
+                let msg = String(UTF8String: lua_tolstring(L, -1 * i, nil))
+                
+                if let errmsg = msg
+                {
+                    results.append(errmsg)
+                }
+            }
+            
+            lua_settop(L, -(nresults)-1) // can't use lua_pop since it's a #define
+        }
+        
+        
+        return (LUA_OK, results)
+    }
+    
     /*
- 
-    
-    // compile
-    int error = luaL_loadfile(L, to_cString(path));
-    if (error) {
-    NSString* stackTrace = to_nsString(lua_tostring(L, -1));
-    [[INWAppDelegate get] exit:stackTrace];
-    return;
-    }
-    
-    // run
-    error = lua_pcall(L, 0, 0, 0);
-    if (error) {
-    NSString* stackTrace = to_nsString(lua_tostring(L, -1));
-    [[INWAppDelegate get] exit:stackTrace];
-    return;
-    }
-    }
-    */
-    }
-
-
-    func registerFunction(function: lua_CFunction, name: String) {
-    
-       // Original: lua_register(self.state, to_cString(name), function);
-        lua_pushcclosure(self.state, function, 0)
-        lua_setglobal(self.state, name )
-        
-        
-        
-        // #define lua_register(L,n,f) (lua_pushcfunction(L, (f)), lua_setglobal(L, (n)))
-
-    }
-    
-    
     
     func callFunctionNamed(name: String) {
         let L: COpaquePointer = self.state
@@ -258,7 +290,7 @@ class LuaManager {
         
         
         
-        
+        */
         
       
 }

@@ -1,0 +1,6 @@
+#include "Pods-mongo-c-driver.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/mongo-c-driver" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/ObjCMongoDB" "${PODS_ROOT}/Headers/Public/couchbase-lite-ios" "${PODS_ROOT}/Headers/Public/lua" "${PODS_ROOT}/Headers/Public/mongo-c-driver"
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

@@ -33,6 +33,7 @@ class DropViewController: UIViewController {
     
     
     override func loadView() {
+         self.navigationController?.navigationBarHidden = true
     }
     
     override func viewDidLoad() {
@@ -92,6 +93,12 @@ class DropViewController: UIViewController {
         
     }
     
+    
+    override func viewWillDisappear(animated: Bool)
+    {
+        super.viewWillDisappear(animated)
+        self.navigationController?.navigationBarHidden = true
+    }
     
 }
 
